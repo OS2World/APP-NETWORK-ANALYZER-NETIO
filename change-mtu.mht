@@ -1,0 +1,3388 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Change the Maximum Transmission Unit (MTU) Size (Windows NT/2000/XP) at Registry Guide for Windows
+Date: Fri, 15 Aug 2003 17:50:31 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_01C36355.B83B7460";
+	type="multipart/alternative"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1165
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/blank.gif
+
+R0lGODlhAQABAJH/AP///wAAAMDAwAAAACH5BAEAAAIALAAAAAABAAEAQAICVAEAOw==
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/icons/registry_large.gif
+
+R0lGODlhIAAgANX/AP//////zv//nP/PY/+aY/8wAP8AAPfz9+fj597f3tbX1s7//87/zs7/nM7P
+zs5lY84wAMbfxrWytaXL96WipZz//5z/nJwwAJSWlISGhHN1c2P/nGP/Y2MwAFpdWlJVUkpNSjk4
+OTH//zH/YzH/MTHP/zHPzjHPYzHPMTHPADGaADFl/zFlMTFlADEw/wCa/wCaAACCAABlAAAwzgAw
+nAAwAAAEAAAAYwAAMQAAAMDAwAAAAAAAAAAAAAAAAAAAACH5BAEAADoALAAAAAAgACAAQAb/QJ1w
+SCwaj8YJINJioFSsV6kkjWEAAMwVC0h4PUSUZTMeoWSy1lVja6lACHbrQUcabbbbbD/DSNg2Qg8E
+BhcddkIoKAAMG2ZPKpEtK5SIQhMLC4omU1JSVzYaADYMJyEgFHhEH0Qqj5EqNS4rLhgOGDYuNTUP
+AwWGlnZ+bEODhYfBiYrLislFiwwWipFRJZMrL9mUgXZKmSIiLVJTMeJWDrd+EhTsGBoaCqw6EygJ
+FhYjMlQlVw5scH9sxEDF7QgKRyhITFOBA4QGB1gCxngg4BcyJDJgRKpBw4WLGbUC8ull0ZmRYQUH
+lTRZRBURPAVZykSkiBEDBmZgrZAJDR+KshQqWrgRim1bsgktOOSEMq6Klhcr2EmlgCEJgAUVmojr
+VCIGiisSsKAb64BCAjCXroKbwrXcC3fvQoR4R+EdzAzyMKFoYAGNJ34AHNhAIAFXJIJIUBwY40iG
+pzVtTsBhMzBVYg5lFAFV8Q4iCICUAwyAcPEZiUfTatACYUvinIrAMKqAFEuWRz+4Ps4gGdvOLo4g
+g6OcgUdl72Aw8aAsRug4y+WCCKycCV3HAwikY85kGQQAOw==
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/wgnlogo.gif
+
+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
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/menuicon.gif
+
+R0lGODlhCwALAKL/AP///+nx+NTi8bzS6Yux2AAAAMDAwAAAACH5BAEAAAYALAAAAAALAAsAQAMh
+SGrS9kYR5qA0I5vAbxNQtGTD1i1f6FVhq44aF7jtCkIJADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/adhead.gif
+
+R0lGODlheAAPAJH/AP///2ZmZgAAAAAAACwAAAAAeAAPAEAChoSPqcvtD6OcK1gWTjYbdP99miKK
+I1eh3pl0IQWTcTrXkWnn+s73/g/UWYaXhou1OapWrSYLoWQmkdRn8IrNarfcrvcLduBipbDMN2yl
+mcs1pwh6Qd3xeQb+DtHpYiLGHTWVB2dSZmdHqOLi1wYFMzaIOKeWqOaowccotRQXOGkGGio66lMA
+ADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/icons/printer_small.gif
+
+R0lGODdhEAAQALMPAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwICAgP8AAAD/AP//AAAA//8A/wD/
+/////yH5BAEAAAEALAAAAAAQABAAAwRQMMg5kaW4vn2zRFv4AABmiVtJnaCofuAhn+NBBvGhKPJh
+AT4EoPWQJRI9yy+3SSqXxd7j+RwiejPqDWdx/oYqYDBI+k5Is7LwRUGbPectJgIAOw==
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/icons/email_small.gif
+
+R0lGODlhEAAQALP/AP////ffvc7Pzs7DvZz3/4SGhDmm/zHL/wAEAAAAAMDAwAAAAAAAAAAAAAAA
+AAAAACH5BAEAAAoALAAAAAAQABAAQARVUMmpCr0FgHL6MZmAYBoBHMQxUkUGBC8MFyt51mxG7J3x
+IbXMwPXaCEQToHK5vEwyOGdFo1FJiQCeD5fhpAg+EFLiGrZagsC4MtTAioV1/Eivr6X4CAA7
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/icons/favorites_small.gif
+
+R0lGODdhEAAQALMPAAAAAIAAAACAAICAAAAAgIAAgACAgMDAwICAgP8AAAD/AP//AAAA//8A/wD/
+/////yH5BAEAAAEALAAAAAAQABAAAwRIMMhJ60QYW4rO8geyBd1nhplGPmzrsgiwnrQXr+DC6OeN
+PKcD4JDzPUCMZBJkDA6Lsl9ut2NGgbnswpfqpmQBgHhMJo/OaEsEADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/premium.gif
+
+R0lGODlhDAAPAKL/AP//////AMDAwICAgICAAIAAAAAAAMDAwCH5BAEAAAcALAAAAAAMAA8AQANC
+eHrUvSSYacQQRBhFTBNS5gVD1okbNy0eF3RDAE5aVGK0qFH8AvGtH+dEGBpkssFgAovtTB6ACQcl
+SDFP6tW0TCUAADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/adfoot.gif
+
+R0lGODlheAAPAJH/AP///2ZmZgAAAAAAACwAAAAAeAAPAEAChoSPqcvtD6OcKdgbVDYb9O6B4DF6
+FfMt20qq7UvFSCmb9R3R+M73/g8MCnsXSIrzOtqWMGQTdmQ5l0rm8IrNarfcrvcLduhio7HX7GoU
+Z2sRycL+wJ+YuH3+Fq05+AdGVzcVlYdXUlbR95ckGEg1E9QYkli2Z+hGiFjopKc5FRIGGio6mlUA
+ADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/window_title.gif
+
+R0lGODlhDQIaALP/AP///9bTzsDAwISChEJBQgD//wCAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACwAAAAADQIaAEAE/xDISau9OOvNu/9gKI5kaZ5oqq5s677rQABBcNz3oO/IMRgFQw8nwR2K
+xqRyybwhm9AjIOqcJp9UJjbL7Uq94LB4TC6bz+i0ugwQuN/w9wDRFiDueLx77oz790M1MjQ2PgaH
+iABBCEJLW19SE0YWVUSSlpVXVo4XlhSZkJFPj54VoaOUSKqblKCma7CxsrO0tbZidXZ5CHBzdbt5
+gH1/cXwHgjOCO8vMzc7P0NHS09TV1tfY2drb3N3e3+Dh4uPk5ebdhAGDNVEDt+/w8fLz9PX29/j5
+TMiEOYpCeAAIaaQEA6ZMqBBuOhgKEilSp6ysYjhRy0JNF1tVTKjQ1UV9IP9DihzpJRcxQL/+8BJg
+zKSbO8UCqUtWiKTNmzhz6tzJsycOfjWCCh1KtKjRo0iTKl3KtKnTp1CjSp1KtarVq1izat3KtWvW
+dTWV/Fjkw6fZs2jTqjX7gY6HIW1vAK05oAAABHYHMrpTMCOrT6Uqiqqy6hUohn0BFwEs6u+lSR8j
+Bp78uPHfyWszaz7rkpivlyqFHYEDU5ccmWBz5M3LSC8nTYcpSvwoeAtj2K87Stadm9NCjhsv64a4
+ubjxkZ3/fLYTmiVc0itLO5c7s5+Pf9jJ0iIOhvtxLt6/ix8fEkA1OuedpD9W3av79/Djy59Pv779
++/jzawWrv7///wAGKOD/gAQWeFVq5CWo4IIMNljLXFAMcJeDFFZo4YXfQdjEDz1IOERg4UERIhkG
+9RUbG53IMyKGLFqYnB/LnSTaizFRh2AOh0gw0Bwc4obYGiv2JiJtkZVUZDxBtqjkgjT2QsdLwJTW
+0hvSmTYdewjWJVBrAO0lJEcOzTbbcI4d9kiKYY65W5oWGbaYcGxKgoqatR255J3fNXlaSn6sNCV0
+VRqj4Q8DbbkIXyZCRphiws0JJxaCKdpbcLKd+CNkvzVK56ObGobnp+PpiRJofc4YRzCn2UiTP0H8
+kwdBPvIW3Kay+gXRrWLWehBxuK5JaUS0rgnqsMblAoyTfJ5qKpTQiTboc2oCsfZhLEkOCWq1xGZb
+nKjOcfunjFdqGCUesnhKIrYKoqvtummN6+67u9wAb7xYrsruvfjmS+xcBvbr778AByzwwAOCJQMB
+CCes8MIMN+zwwxBHLPHEFFds8cUYZ6zxxhx37PHHIIcs8sgkl3xxAOnIEAEAOw==
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/side_left.gif
+
+R0lGODlhBQAUAKL/AP///9bTzoSChEJBQgAAAMDAwAAAAAAAACH5BAEAAAUALAAAAAAFABQAQAMU
+CBEyym61N2WE9FZss+8gJ26kNiQAOw==
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/databar_name.gif
+
+R0lGODlhvgAUAKL/AP///9bTzoSChAAAAMDAwAAAAAAAAAAAACH5BAEAAAQALAAAAAC+ABQAQAOt
+GLrc/jDKSau9OGst3AjfEoLD+JUKypTj5r5wLHNzbd94Lnd67//AGG8lShmPpiIoyGw6GcOndEp1
+RVOtZXXLdV61yUYoDCZ2z2ioR3wSjZXaeDZNp37r+PxOz++/7n6Bgg2Ag4Z+Xypwh4xbiXFlSGNv
+R5CNlxaPSG4qZJMsc5iiEJpGbUqelaOrFKVYWKepnKy0D4W1uD4Cu7y9vr/AwcLDxMXGx8jJysvM
+AgkAOwkAOw==
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/databar_type.gif
+
+R0lGODlhZAAUAKL/AP///9bTzoSChAAAAMDAwAAAAAAAAAAAACH5BAEAAAQALAAAAABkABQAQAON
+CLHc/jDKSauFQsXReA/cIDqid50omqUmmL5wHKxybd+YBrVLyPA+nPBEGxqPlWKvxOQhny8ladqr
+flpO6E36eWC7Lqt2yJ0Ax+hHOc2O6tpwd3yeWofp+NmbKq6OxCZZeRR2Z1ZnTYKDEoVed4iLMo2O
+P0wkf5EXdjt8mVsAAqGio6SlpqeoqaqrrKcJADs7
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/databar_data.gif
+
+R0lGODlh3wAUAKL/AP///9bTzoSChAAAAMDAwAAAAAAAAAAAACH5BAEAAAQALAAAAADfABQAQAOu
+CLHc/jDKSau9OOvNe1XO8IjMYC5mip5e675wLHfgbN94ru9Mzf/AoHDnQ0FIpACykUwOn9Aopyit
+Wq88akpFcWK/YKv2ODKSw+g0bsxcrszKkldNr2+o9rweit/7/zl9gIOELYKFiIkfZW0Tc4qQaGwh
+cG6VkZhVk0xyLF5bmaFPm2ZOlqaiqUBaW58nTa+vqrM6h7S3aQACu7y9vr/AwcLDxMXGx8jJysvM
+zcUJADvS08oJADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/side_right.gif
+
+R0lGODlhBwAUAKL/AP///9bTzoSChEJBQgAAAMDAwAAAAAAAACH5BAEAAAUALAAAAAAHABQAQAMc
+GBAsoyw42N6qVNo4r84dt2FeSIrg+JWquaJsAgA7
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/reg_sz.gif
+
+R0lGODlhFAAUAKL/AP///8bDxoSChIQAAAAAAMDAwAAAAAAAACH5BAEAAAUALAAAAAAUABQAQANX
+CLrcDoKNAWalgTxBul6EkDHRs0TlaTbjKbxw/G6PtbRKZO2UhUMBR2AYBPxWyCQyZZo1mAsbp0NS
+TAbBK8X4yVmvl/CvpC0rxkouqUMMTDuRo9KTXiUAADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/reg_dword.gif
+
+R0lGODlhFAAUAKL/AP///8bDxoSChAAA/wAAAMDAwAAAAAAAACH5BAEAAAUALAAAAAAUABQAQANX
+CLrcDkKNKQeggTxBul6EkDHRs0TleVlUa42nIM+0vK24C8BKpK+W3acXcASORaFpyWw6UiZbozQJ
+tjgdUo7FVaqcPMh2HPZ1gYpyBxnAdiJhJ8AjXyYAADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/statusbar_top.gif
+
+R0lGODlhJgIFAKL/AP///9bTzoSChEJBQgAAAMDAwAAAAAAAACH5BAEAAAUALAAAAAAmAgUAQANz
+CBGy/jDKSau9OOvNu/9gKI5kaZ5oqq6YsgiDK8x0bd94ru987//AoHBILBqPyKRyyWw6n9DoTxZj
+Wa/YrHbL7Xq/4DAX5gKYz+i0es1uu9/wuHxOr9vv+Lx+z+/7/4CBgoOEcg5kYomKi4yNjo+QkV4w
+CQA7
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/statusbar_right.gif
+
+R0lGODlhFAAUAKL/AP///9bTzoSChEJBQgAAAMDAwAAAAAAAACH5BAEAAAUALAAAAAAUABQAQAND
+GLrcoGK0uR6UTogANF8RJVqhyHlWUJoMibHTanbbNaKeXeEbDb6wjwoIcwUruuPv2FmyfE6Kr5ls
+8RiyUw8XnV5/CQA7
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/regedit/statusbar_bottom.gif
+
+R0lGODlhJgIFAKL/AP///9bTzoSChEJBQgAAAMDAwAAAAAAAACH5BAEAAAUALAAAAAAmAgUAQAOC
+CBHQ/jDKSau9OOvNu/9gKI5kaZ5oqq5L676tMMx0bd94ru987//AoHBILBqPyKRyyWw6n9AoUgGr
+Wq/YrHbL7Xq/4LB4TC6bz+i0es1uu98y6ntOr9vv+Lx+z+/77zICgoOEhYaHiImKi4yNjo+QkZKT
+lJWWl5iZmpucnZ6foJUDCQA7ADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/v_whitedots.gif
+
+R0lGODlhCgAQAJH/AP///wAAAMDAwAAAACH5BAEAAAIALAAAAAAKABAAQAIPlAWnlnvtUJy02ouz
+3rUAADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/searchsite.gif
+
+R0lGODlhDwAOAMT/AP////+1Oef//+dje96EOdb//9aclM61hMaM7733/7Xv/7Xe77XW5617a6W9
+1py93pR7rZRzWoyctYSUrXtrWnN7nGuMxmuMtWtzlGtzjGN7pWNrhFpSawAAAMDAwAAAACH5BAEA
+AB4ALAAAAAAPAA4AQAVqoCeOF2KalzV6R9Bk0rMw0lat3sQoSlIIhcJiMyBEMLgkTiIAJHiJREWD
+e0R/gOxkwwoYMxfPZawUXRxB3kKCUZEWhagv+OCsJosnFiBg2EcSE1Y/TX5hXV8ZHItgIgZeERll
+IhAUN5MiIQA7
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.winguides.com/images/shade.gif
+
+R0lGODlhAAQDANX/AP///6XO95zG75S954y13nulzq3O96XG75y954yt1nOczmuUxqXG95y975S1
+54yt3oSl1nucznOUxmuMvWOEtVp7rVJzpXOUzmOEvVp7tVJzrUprpUJjnDlalJy155St3oyl1jla
+nDFSlClKjCFChBg5exAxcwgpa4yl3nuUznOMxmuEvVpzrVJrpYSc1mN7tVpztVJrrTlSlDFKjClC
+hEJanDFKlClCjBgxexApcwghayE5hBgpcyExexAhcwAAACwAAAAAAAQDAAAG/0CdcEgsGo25YXKp
+Y+ZOzyh0mqtCrdWsdsvLmXLdLg5swpl45bQZx1u332x2qY2T40p1XO+u15f2PX+CO4OFOz2Eh4ck
+iD2Mi46OOzSSNJMkNJiamZybmzQ3mKCjN6MjNKepqKszqCOtM6+ysbSzrzO0uLo2uiIzvsC/wjLD
+M8QdxiLHyswyyjLO0NIyHdTW1SHUHdkhHTXb3uHf4+LeIeM16OnpHDXt7+7uHPPzG/Ib9Pj6HPv9
+/P/6NgQUSLAgwRYHNyCMoXADw4UOIzKc2ELDBg0VM2LUwNECx48gNbD4OLKkyJMjYZzMoCEDC5Yu
+Y1bIMLMmzZsZcL7ImWGnz/+eQH/upJCBwgsMRY8epYCBqdOmUJ9SWMEUA9UVVqda3ToBQ9evK75O
+GDt2QdgJZhegXatWrYq1b+NOULEg7gIJEyTc3atXgt+7fgMLvhCYsN8UEggjXiwBcQQJjyNDhqwg
+coQIlS9r3sy5cwQXmiF8jiC6NOnTEAqkXq0awmrXsGPLhg0CdgIItx/ghqC7N+/fDxL0Fk48+IPj
+wo8rX/6BwPHmHx5Al06guYPqBK47+DAgO/cP2weA/y6+vIPwDhBwT88eQfoBCODLj09/QAP4CO43
+yM9/v3/+AvB3AAIBDniAAAYiqOCBDC6I4AEMHsAAhBJSOOGEARyQ4YYHGKD/YYcgemhAACIGYOKJ
+KKao4oosttjiETAO4YMOMzrRxI1LUEEFFlv0qEUXVYSRwxhorDGkGmq0UQYcb+BhBx5Q/sFHIID4
+QSUOhASSSAmKcNkII2B+GQkJJCxS5iVlcnJJJ2ySUEomb5IiZymlqKLKDDecgueettTi5y254MIL
+LsEUWowvxCSqTDLLONOBCI9C04EN1kh6DTXZdLCNDNnUwKkM5IRazjjneJPOOezEA888qsZjTz01
+2CNrrLTOaitAAvFj0K68NiTQQxIFO5FDLVAUQ0bHahDDRssuGxJHLDRrkkkqpXSSStiyoFJML3XL
+LU8VwJABDBW8IC4MQgWl/266GLywU7vwKhXVvEth1RRWV22Fr1dc8TtBWF6FtYJa/7Y18MFpraDC
+wQs3PNdcdUFMl150qaACxRdnLIHGiV2c2MeEKfYxY485NlkEF0SWAsqapexZBCtzBtplM4/mQgE3
+32zazqi51hoELrgW9Gyz1eYaChDUhnRtvjUNnHC8FYeccskt95xy0WVdHXXROUCddt5pN9524Y1X
+3noODOBB2u217d7b8L3n3n4e2JefB//l3d/e+x3QQIEN+C144A42GOGBE0J4YYWLNw5ihiJ2SKLk
+I1ZO4uUGZO7i5px33uIJOoAueuikj246ETMKYaMTOkoRBY9ZfFHFF7TH3v/FF0ISieQaSboxx+90
+8FFHlFDuUYIgV1JZiJYlPNL8mJHsQCb0O0hfSSVretImJ6CIMoL3cqpSJyvk00LDn+jPgsstgwpD
+qDCGIlpMosbYgIyjzEQKzTOWVtP/p5riRji6ISpycCAcHCjVOlCVqlXFo4GuiqCtalUrflCQILHK
+Va92hRCBIAQiEGGIRSwiQolU5CIaWVZFVPiskUALJTAcCUsqoIFqtaQlL8GhS8glkx7OJCc/3ElO
+fkIUogxFXUU8SlLiBZWlzEsqVMGAVV7QlX1h5Sv+ClgVBVYwgSWsLWgZ2FzEKBe7mHEvE7sYYDy2
+McEU5o2KUYECGkNHk0mTJjIpa0xlIAOzzMTsZZopwGhoZrPR8Aw0otEZaXCmmqD9jGiQNNpvcrMb
+pzUNBMMxjtSMYzXlbO0B2JmO1rqGHbF57Wxk+07ZyHYe8LBnAOxZ29veU7f41BI+eMOP3nYJIAER
+KHAIGJwwCWe4BUHoQYljnDI55CHIhYhy0KwcAwIwzWpS85rWzCY2t6nNbnJzm0EAADs=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.winguides.com/stylesheets/winguides.css
+
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial; =
+TEXT-DECORATION: none
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial; =
+TEXT-DECORATION: none
+}
+SELECT {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; FONT-FAMILY: verdana,arial; =
+TEXT-DECORATION: none
+}
+.onbody {
+=09
+}
+.onbody A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+.onbody A:visited {
+	TEXT-DECORATION: none
+}
+.onbody A:active {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+.onbody A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 9pt; FONT-FAMILY: verdana,arial
+}
+P {
+	FONT-SIZE: 9pt; FONT-FAMILY: verdana,arial
+}
+TABLE {
+	FONT-SIZE: 9pt; FONT-FAMILY: verdana,arial
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: verdana,arial
+}
+TR {
+	FONT-SIZE: 9pt; FONT-FAMILY: verdana,arial
+}
+BODY {
+	BACKGROUND: #ffffff
+}
+PRE {
+	FONT-SIZE: 9pt; FONT-FAMILY: courier
+}
+H4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; FONT-STYLE: normal; FONT-FAMILY: =
+Verdana, Arial, Helvetica, sans-serif
+}
+.normal {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FONT-FAMILY: verdana,arial
+}
+.tableborders {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; BORDER-RIGHT-WIDTH: 0px
+}
+.tdheader {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; BACKGROUND: #6b8ec6; COLOR: white
+}
+.menu {
+	BORDER-RIGHT: #6b8ec6 1px solid; BORDER-TOP: #6b8ec6 1px solid; =
+BORDER-LEFT: #6b8ec6 1px solid; BORDER-BOTTOM: #6b8ec6 1px solid
+}
+.menutitle {
+	BORDER-RIGHT: #6b8ec6 1px solid; BORDER-TOP: #6b8ec6 1px solid; =
+FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND: #6b8ec6; BORDER-LEFT: =
+#6b8ec6 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #6b8ec6 1px solid
+}
+.menubody {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: =
+4px; COLOR: #026ab3; PADDING-TOP: 4px; FONT-FAMILY: Verdana, Geneva, =
+Arial, Helvetica; BACKGROUND-COLOR: #eff3f7
+}
+.menubody A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+.menubody A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+.menubar {
+	FONT-SIZE: 8pt
+}
+.post {
+=09
+}
+.pagetitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; MARGIN: 0ex; COLOR: white; =
+padding-width: 0px
+}
+.pagetitlesmall {
+	FONT-SIZE: 8pt; COLOR: white
+}
+.pagetitlesmall A:link {
+	COLOR: white
+}
+.pagetitlesmall A:visited {
+	COLOR: white
+}
+.username {
+	FONT-SIZE: 8pt
+}
+.username A:visited {
+	COLOR: #003399; TEXT-DECORATION: underline
+}
+.username A:link {
+	COLOR: #003399; TEXT-DECORATION: underline
+}
+.pagebreak {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial black, verdana
+}
+.header {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; MARGIN: 0ex; padding-width: 0px
+}
+.header A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+.header A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+.category {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; MARGIN: 0ex; padding-width: 0px
+}
+.subhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; MARGIN: 0ex; padding-width: 0px
+}
+.footersmall {
+	FONT-SIZE: 8pt
+}
+.new {
+	COLOR: red
+}
+.catandforum {
+=09
+}
+.posttime {
+	text-valign: top
+}
+.threadtotal {
+=09
+}
+.posttotal {
+=09
+}
+.small {
+	FONT-SIZE: 8pt
+}
+.standouttext {
+	COLOR: blue
+}
+.welcome {
+=09
+}
+.forumtitle {
+	FONT-WEIGHT: bold; BACKGROUND: #eeeeee; COLOR: #003399
+}
+.forumdescript {
+	BACKGROUND: #eeeeee
+}
+.lighttable {
+	BACKGROUND: #eeeeee
+}
+.darktable {
+	BACKGROUND: #dddddd
+}
+.cleartable {
+	BACKGROUND: #ffffff
+}
+.alternatetable {
+	BACKGROUND: #ffffff
+}
+.subjecttable {
+	BACKGROUND: #dddddd
+}
+.footertable {
+	BACKGROUND: #eeeeee
+}
+.formboxes {
+=09
+}
+.buttons {
+=09
+}
+.navlinks {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; TEXT-ALIGN: center
+}
+.navlinks A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.navlinks A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.code {
+	BORDER-RIGHT: #000080 1px inset; PADDING-RIGHT: 6px; BORDER-TOP: =
+#000080 1px inset; PADDING-LEFT: 6px; BACKGROUND: #ffffff; =
+PADDING-BOTTOM: 6px; BORDER-LEFT: #000080 1px inset; PADDING-TOP: 6px; =
+BORDER-BOTTOM: #000080 1px inset; FONT-FAMILY: "Courier =
+New",Courier,monospace
+}
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://a.as-us.falkag.net/dat/dlv/aslmain.js
+
+// Falk AdSolution - Copyright (c) 2003 by Falk eSolutions AG - All =
+rights reserved
+function iB(Fa)
+{if(Fa=3D=3D-1)
+return ';path=3D/';var Ga=3Dnew =
+Date();Ga.setTime(parseInt(Ga.getTime(),10)+1000*60*parseInt(Fa,10));retu=
+rn ';path=3D/;expires=3D'+Ga.toGMTString();}function jB(j,k,v)
+{var =
+i=3D'&dlv=3D'+Ads_nid+','+Ads_wid+','+Ads_iid+','+j+','+k+'&kid=3D'+j+'&c=
+hc=3D'+bA+v+sA+fA;i+=3D'&dmn=3D'+Ads_T[5];if(navigator.appVersion.substri=
+ng(0,1)>'3')
+{i+=3D'&scx=3D'+screen.width+'&scy=3D'+screen.height+'&scc=3D'+screen.col=
+orDepth;if(navigator.javaEnabled())
+i+=3D'&jav=3D1';}if((Ads_wrd!=3D'')&&(Ads_wrd.toLowerCase()!=3D'[keyword]=
+'))
+{i+=3D'&wrd=3D'+escape(Ads_wrd);}var =
+Ha=3D'&sta=3D,,,,'+uB()+',,,,'+escape(Ads_T[7])+',';rB(1,'STA-Uri-Paramet=
+er',Ha);i+=3DHa;return (Ads_Timestamp+i);}function kB(j,k,v)
+{return '&rdm=3D'+jB(j,k,v)+'&iid=3D'+Ads_iid+'&bid=3D'+k;}function lB()
+{if(gA)
+return jA[Ads_sec]+'/dat/dlv/aslcount.html;cmd=3Dred&';else
+return jA[Ads_sec]+'/dat/bgf/trpix.gif?';}function mB(i)
+{var =
+Ia;rB(1,'',lB()+i);if(typeof(document.getElementsByTagName)!=3D'undefined=
+'&&typeof(document.createElement)!=3D'undefined')
+Ia=3D'<div id=3DAds_Banner'+Ads_iid+' =
+style=3D"position:absolute;left:0;top:0;display:none;">'
+else if(document.layers)
+Ia=3D'<layer id=3DAds_Banner'+Ads_iid+' left=3D"0" top=3D"0" =
+visibility=3D"hide">';else
+Ia=3D'<div id=3DAds_Banner'+Ads_iid+' =
+style=3D"position:absolute;left:0;top:0;visibility:hidden;">';if(gA)
+Ia+=3D'<iframe src=3D"'+lB()+i+'" width=3D"1" height=3D"1" noresize =
+scrolling=3D"no" hspace=3D"0" vspace=3D"0" frameborder=3D"0" =
+marginheight=3D"0" marginwidth=3D"0">';Ia+=3D'<img src=3D"'+lB()+i+'" =
+width=3D"1" height=3D"1">';if(gA)
+Ia+=3D'</iframe>';Ia+=3D(document.layers?'</layer>':'</div>');return =
+Ia;}function nB(s,i)
+{s.document.write(mB(i));}function oB()
+{return pB(Math.random()*100000000,8);}function pB(Ja,Ka)
+{var La=3D'#'+(Ja+100000000);return La.substr(10-Ka,Ka);}function =
+qB(Ma,Na,Oa)
+{var q;while((q=3DMa.indexOf(Na))!=3D-1)
+Ma=3DMa.substr(0,q)+Oa+Ma.substring(q+Na.length,Ma.length);return =
+Ma;}function rB(A,Ma,Pa)
+{var Qa=3Dnew Date();if(Ads_debug=3D=3D1)
+{document.write(((A!=3D3)?'':'<br>')+'<font =
+color=3D#0000ff>[DEBUG'+((Qa-hA)/1000)+']</font> =
+');if((A=3D=3D0)||(A=3D=3D3))
+document.write('<b><big>'+Ma+'</big></b><br>');else if(A=3D=3D1)
+document.write(''+Ma+': &nbsp;<font =
+color=3D#000080>'+Pa+'</font><br>');else
+document.write('<b>'+Ma+'</b><br>');}else =
+if((Ads_debug=3D=3D2)&&(A=3D=3D3))
+document.write('<font color=3D#0000ff>[DEBUG'+((Qa-hA)/1000)+']</font> =
+<b><big>'+Ma+'</big></b><br>');}function sB(Ra)
+{var x=3D'#'+(parseInt(Ra,10)+100000000);return =
+x.substr(2,2)+'/'+x.substr(4,2)+'/'+x.substr(6,2)+'/'+x.substr(8,2);}func=
+tion tB(Ja)
+{var Sa=3D'0123456789ABCDEF';var Ta=3D'';while(Ja>0)
+{Ta=3DSa.substr(Ja%16,1)+Ta;Ja=3DparseInt(Ja/16,10);}return =
+(Ta=3D=3D'')?'0':Ta;}function uB()
+{if(typeof(gintFlash)!=3D'undefined')
+return gintFlash;var =
+Ua;gintFlash=3D0;if(((navigator.appName=3D=3D"Netscape")&&(navigator.user=
+Agent.indexOf("Mozilla")!=3D-1)&&(parseFloat(navigator.appVersion)>=3D4)&=
+&(navigator.javaEnabled())&&navigator.mimeTypes&&navigator.mimeTypes["app=
+lication/x-shockwave-flash"]&&navigator.mimeTypes["application/x-shockwav=
+e-flash"].enabledPlugin))
+{Ua=3Dnavigator.plugins['Shockwave =
+Flash'].description;Ua=3DUa.substring(Ua.indexOf("."),-1);gintFlash=3DUa.=
+substr(-1);}else =
+if(navigator.userAgent&&navigator.userAgent.indexOf("MSIE")!=3D-1&&naviga=
+tor.userAgent.indexOf("Windows")!=3D-1&&navigator.userAgent.indexOf("Wind=
+ows 3")=3D=3D-1&&document.all)
+{document.write('<scr'+'ipt language=3DVBScript>\n =
+zA=3D10\nintMinVersion=3D1\nDo\nOn Error Resume =
+Next\n');document.write('bolFlash=3D(IsObject(CreateObject("ShockwaveFlas=
+h.ShockwaveFlash."&zA)))\n');document.write('If bolFlash=3Dtrue Then =
+Exit Do\nzA=3DzA-1\nLoop While zA>=3DintMinVersion\n =
+</scr'+'ipt>');gintFlash=3DzA;}return gintFlash;}// Falk AdSolution - =
+Copyright (c) 2003 by Falk eSolutions AG - All rights reserved
+var Ads_ModulMain=3Dtrue;var Ads_ModulEffects=3Dfalse;var =
+bA,cA,dA,eA,fA,gA,hA;var =
+iA=3D['http://a.as-us.falkag.net','https://s.as-us.falkag.net'];var =
+jA=3D['http://red01.as-us.falkag.net','https://red01.as-us.falkag.net'];v=
+ar =
+kA=3D['http://red01.as-us.falkag.net/server/asldata.js','https://red01.as=
+-us.falkag.net/server/asldata.js'];var =
+lA=3D['http://a.as-us.falkag.net/dat/bgf/','https://s.as-us.falkag.net/da=
+t/bgf/'];var mA=3D[];var nA=3Dnavigator.userAgent.toLowerCase();var =
+oA=3D(nA.indexOf("msie")!=3D-1);var =
+pA=3D((nA.indexOf("win")!=3D-1)||(nA.indexOf("16bit")!=3D-1));var =
+qA=3D(nA.indexOf("mac")!=3D-1);var =
+rA=3D(navigator.appName.indexOf('icrosoft')!=3D-1);var sA=3D'';var =
+tA=3D0;var uA=3D[];var vA=3D[];var wA;var a=3D[];var b=3D[];var =
+c=3D[];var d=3D[];var e=3D[];var f=3D[];var g=3D[];var =
+Ads_LinkUrl,Ads_CountUrl,Ads_ClickUrl,Ads_T,iid,bid,rdm;var xA,yA,zA;var =
+aB=3D'toolbar=3Dyes,directories=3Dyes,status=3Dyes,scrollbars=3Dyes,resiz=
+able=3Dyes,menubar=3Dyes,location=3Dyes';function =
+gotoSite(){window.open(xA,'flashwin',aB);}function =
+emosite(){window.open(xA,'flashwin',aB);}function =
+FlashClick(){window.open(xA,'flashwin',aB);}function =
+link1(){window.open(xA,'flashwin',aB);}function =
+gotoURL(h){window.open(yA+escape(h),'flashwin',aB);}function bB()
+{Ads_kid=3D0;Ads_bid=3D0;Ads_cmd=3D'';}function cB(h)
+{rB(1,'adsclickurl',Ads_ClickUrl);h=3DqB(h,'[par]',escape(Ads_par));h=3Dq=
+B(h,'[keyword]',escape(Ads_wrd));h=3DqB(h,'[timestamp]',Ads_Timestamp);h=3D=
+qB(h,'[clickurl]',escape(Ads_CountUrl));h=3DqB(h,'[clickurl_plain]',Ads_C=
+ountUrl);h=3DqB(h,'[web_id]',Ads_wid);h=3DqB(h,'[web_external_id]',escape=
+(Ads_xwid));h=3DqB(h,'[con_id]',Ads_iid);h=3DqB(h,'[con_external_id]',esc=
+ape(Ads_xiid));return h;}function dB()
+{return jA[Ads_sec]+'/dat/dlv/aslcount.html?cmd=3Durl&';}function =
+eB(h,i)
+{return dB()+i+'&dat=3D'+escape(h);}function fB(j,k,l)
+{var m;if(tA<2)
+{tA++;m=3DtA+1;sA+=3D'&kid'+m+'=3D'+j;sA+=3D'&bid'+m+'=3D'+k;sA+=3D'&iid'=
++m+'=3D'+Ads_iid;sA+=3D'&dlv'+m+'=3D'+Ads_nid+','+Ads_wid+','+Ads_iid+','=
++j+','+k;if(eA!=3D0)
+sA+=3D'&sid'+m+'=3D'+eA;arrIntern=3Dl.split('-');Ads_iid=3DarrIntern[1];A=
+ds_kid=3DarrIntern[2];Ads_bid=3D0;document.write('<scr'+'ipt =
+type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"'+iA[Ads_sec]+'/dat/cjf/'+sB(Ads_iid)+'.js"></scr'+'ipt>');}else
+{sA=3D'';tA=3D0;bB();}}function gB(n)
+{var o=3D[];var p=3Dn.length;var q;for(q=3D0;q<p;q+=3D2)
+o[q/2+1]=3DAds_CountUrl+escape(n[q+1])+'&bidx=3D'+n[q];return =
+o;}function SAS()
+{rB(3,'Start for Adspot =
+'+Ads_iid);wC();bA=3D'';dA=3D0;eA=3D0;fA=3D'';cA=3D-1;if(Ads_nid=3D=3D7)
+KAS[KAS.length]=3D[-1,100,-1,100,[],0,0,0,0,100];if(typeof(Ads_kid)=3D=3D=
+'undefined') Ads_kid=3D0;if(typeof(Ads_cmd)=3D=3D'undefined') =
+Ads_cmd=3D'';Ads_cmd=3DAds_cmd.toLowerCase();rB(3,'Select =
+campaigns');if((Ads_kid=3D=3D0)||(Ads_kid=3D=3D''))
+cA=3DyB();else
+{rB(1,'Preselected =
+campaign',Ads_kid);p=3DKAS.length;cA=3D0;while((KAS[cA][0]!=3DAds_kid)&&(=
+cA<p))
+cA++;if(cA=3D=3Dp)
+cA=3D-1;}if(cA!=3D-1)
+{dA=3DKAS[cA][0];eA=3DKAS[cA][6];if(eA!=3D0)
+fA=3D'&sid=3D'+eA;rB(1,'Selected campaign',dA+'('+eA+')');if(dA>0)
+{rB(1,'BJF-load start','');document.write('<scr'+'ipt =
+type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"'+iA[Ads_sec]+'/dat/bjf/'+sB(dA)+'.js"></scr'+'ipt>');rB(1,'BJF-lo=
+ad ende','');}else
+DAS();}else
+{rB(1,'no campaign selected!');DAS();}}function DAS()
+{rB(3,'Select banner for campaign '+dA);var r,p,i,s,t,u;var v=3D'';var =
+w=3D['_blank','_self','_parent','_top'];var k=3D0;var =
+x,y,z;if(IAS[9]=3D=3D1)
+{x=3D'adsolut.gif';y=3D234;z=3D60;}else
+{x=3D'trpix.gif';y=3D1;z=3D1;}var A=3D1;var =
+h=3D'http://www.falkag.de';// Ziel-Url
+var B=3D'Falk AdSolution';var C=3D0;var D=3D'';var E=3D'';var F=3D'';var =
+G=3D'';var H=3D'';var I=3D0;var J=3D0;var K=3D1;var L=3D2;var l=3D'';var =
+M=3D'';var n=3D[];var N=3D0;var O,P,Q,R,S,T,U,V,W,X;var =
+Y=3D'undefined';if(typeof(Ads_bid)=3D=3DY) =
+Ads_bid=3D0;if(typeof(Ads_xl)=3D=3DY) =
+Ads_xl=3D0;if(typeof(Ads_yl)=3D=3DY) =
+Ads_yl=3D0;if(typeof(Ads_xp)=3D=3DY) =
+Ads_xp=3D'';if(typeof(Ads_yp)=3D=3DY) =
+Ads_yp=3D'';if(typeof(Ads_opt)=3D=3DY) =
+Ads_opt=3D0;if(typeof(Ads_wrd)=3D=3DY) =
+Ads_wrd=3D'';if(typeof(Ads_prf)=3D=3DY) =
+Ads_prf=3D'';if(typeof(Ads_par)=3D=3DY) =
+Ads_par=3D'';if(typeof(Ads_cnturl)=3D=3DY) Ads_cnturl=3D'';if(dA!=3D0)
+{if((Ads_bid=3D=3D0)||(Ads_bid=3D=3D''))
+r=3DzB(cA,dA);else
+{p=3DBAS.length;r=3D0;while((BAS[r][0]!=3DAds_bid)&&(r<p))
+r++;if(r=3D=3Dp)
+r=3D-1;}if(r!=3D-1)
+k=3DBAS[r][0];}if(k>0)
+{A=3DBAS[r][3];x=3DBAS[r][4];h=3DBAS[r][5];B=3DBAS[r][6];C=3DBAS[r][12];D=
+=3DBAS[r][7];E=3DBAS[r][8];F=3DBAS[r][9];G=3DBAS[r][10];H=3DBAS[r][11];y=3D=
+BAS[r][13];z=3DBAS[r][14];I=3DBAS[r][15];J=3DBAS[r][16];K=3DBAS[r][17];L=3D=
+BAS[r][18];l=3DBAS[r][19];M=3DBAS[r][20];n=3DBAS[r][22];N=3DBAS[r][23];v=3D=
+xC(dA,cA,k,r,((C&4096)>0));Ads_klist+=3DdA+'#';u=3DKAS[cA][4][25];if(u>0)=
+
+{if(typeof(Ads_fcount[u])=3D=3D'undefined')
+Ads_fcount[u]=3D1;else
+Ads_fcount[u] ++;}}if(dA=3D=3D-1)
+{dA=3D99999999;k=3D99999999;}Ads_skid=3DdA;Ads_sbid=3Dk;rB(1,'Selected =
+campaign',dA);rB(1,'Selected banner',k);rB(3,'Delivery and display of =
+the =
+banner');E=3D(E=3D=3D'')?h:E;O=3D(C&24);P=3Dw[C&3];S=3D((C&64)>0)&&((Ads_=
+opt&64)=3D=3D0);Q=3D(C&128)>0;R=3D(C&512)>0;T=3D((C&1024)>0)&&Ads_ModulEf=
+fects;U=3D((C&8192)>0);V=3D(C&2048)>0;W=3D(M.length>0);y=3D(Ads_xl>0)?Ads=
+_xl:y;z=3D(Ads_yl>0)?Ads_yl:z;I=3D(Ads_xp!=3D'')?Ads_xp:I;J=3D(Ads_yp!=3D=
+'')?Ads_yp:J;gA=3D(C&4096)>0;Ads_opt|=3D(C&16384)>0?64:0;Ads_opt|=3DIAS[3=
+]*32;Ads_Timestamp=3DoB();h=3DcB(h);E=3DcB(E);if(Ads_cnturl!=3D'')
+{X=3DqB(Ads_cnturl,'[url]',escape(h));h=3DqB(X,'[url_plain]',h);X=3DqB(Ad=
+s_cnturl,'[url]',escape(E));E=3DqB(X,'[url_plain]',E);}i=3DkB(dA,k,v);rB(=
+1,'Count-String',i);if((A=3D=3D3)||(A=3D=3D4))
+{Ads_LinkUrl=3Dh;Ads_CountUrl=3DeB('',i);Ads_ClickUrl=3DAds_CountUrl+esca=
+pe(h);Ads_MultiUrl=3DgB(n);Ads_ViewCode=3DmB(i);Ads_ViewUrl=3DlB()+i;}if(=
+A=3D=3D1)
+F=3DiA[Ads_sec]+'/dat/bgf/'+x;if(uA.length!=3D0)
+{if(!Q)
+{Q=3DuA[0];S=3DuA[1];R=3DuA[2];L=3DuA[3];T=3DuA[4];U=3DuA[5];}if(!W)
+{W=3DuA[6];M=3DuA[7];}I=3DuA[8];J=3DuA[9];O=3DuA[10];IAS[2]=3DuA[11];uA=3D=
+[];}if(A=3D=3D5)
+{uA=3D[Q,S,R,L,T,U,W,M,I,J,O,IAS[2]];Q=3Dfalse;W=3Dfalse;IAS[2]=3D0;}if((=
+Ads_cmd=3D=3D'lnk')&&(A!=3D5))
+{self.location.href=3DeB(h,i);Q=3Dfalse;W=3Dfalse;A=3D6;return;}if(Q)
+{s=3DbG(y,z,I,J,O,S,R,L,T,U);if(S)
+{if(window.innerHeight)
+{y=3Ds.innerWidth;z=3Ds.innerHeight;}else
+{y=3Ds.document.body.clientWidth;z=3Ds.document.body.clientHeight;}}if(R)=
+
+window.setTimeout('s.blur();',L*1000);}else
+s=3Dwindow;if(Ads_ModulEffects&&W)
+{if(O=3D=3D16)
+O=3D1;else if(O=3D=3D24)
+O=3D2;else
+O=3D0;iF(Ads_iid,y,z,I,J,O,M,Q,s);jF(Ads_iid,Ads_sec);}rB(1,'Banner-Typ/P=
+opUp',A+'/'+Q);if(A<2)
+vF(s,Q,i,F,h,P,y,z,B);else if(A=3D=3D2)
+wF(s,Q,i,x,h,P,y,z,B,D,E,V,K);else if(A=3D=3D3)
+xF(s,Q,i,h,dA,k,v,W,y,z,N);else if(A=3D=3D4)
+yF(s,Q,i,G,H,W,y,z);else if(A=3D=3D5)
+fB(dA,k,l);if(wA!=3D'')
+{wA=3DAds_iid+'=3D'+dA+'&'+wA;rB(1,'wA',wA);Ia=3D'';if(typeof(document.ge=
+tElementsByTagName)!=3D'undefined'&&typeof(document.createElement)!=3D'un=
+defined')
+Ia=3D'<div id=3DAds_Banner =
+style=3D"position:absolute;left:0;top:0;display:none;">'
+else if(document.layers)
+Ia=3D'<layer id=3DAds_Banner left=3D"0" top=3D"0" =
+visibility=3D"hide">';else
+Ia=3D'<div id=3DAds_Banner =
+style=3D"position:absolute;left:0;top:0;visibility:hidden;">';Ia+=3D'<img=
+ src=3D"http://62.26.220.50/dat/bgf/trpix.gif?dv3'+wA+'" width=3D"1" =
+height=3D"1">';Ia+=3D(document.layers?'</layer>':'</div>');wA=3D'';docume=
+nt.write(Ia);}rB(3,'Banner-display =
+finished');pC();if(Ads_ModulEffects&&W)
+kF(Ads_iid);if(A!=3D5)
+bB();Ads_idl+=3D'#'+Ads_iid+'#';if((IAS[2]>0)&&(Ads_idl.indexOf('#'+IAS[2=
+]+'#')=3D=3D-1))
+{rB(1,'Load combined =
+adspot',IAS[2]);Ads_kid=3D0;Ads_bid=3D0;Ads_xl=3D0;Ads_yl=3D0;document.wr=
+ite('<scr'+'ipt type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"'+iA[Ads_sec]+'/dat/cjf/'+sB(IAS[2])+'.js"></scr'+'ipt>');}}functi=
+on CAS()
+{if(typeof(Ads_debug)=3D=3D'undefined') Ads_debug=3D0;var Z=3Dnew =
+Date(Ads_T[9]);var Aa=3Dnew Date();Ads_T[9]=3DZ-Aa;var =
+Ba=3DAds_T[0]+'#'+Ads_T[1]+'#'+Ads_T[2]+'#'+Ads_T[3]+'#'+Ads_T[4]+'#'+Ads=
+_T[5]+'#'+Ads_T[6]+'#'+escape(Ads_T[7])+'#'+escape(Ads_T[8])+'#'+Ads_T[9]=
++'#'+Ads_T[10]+'#'+Ads_T[11];document.cookie=3D'ASLTRG=3D'+Ba+iB(60*24);r=
+B(1,'Load targeting-infos from server',Ba);}function hB()
+{hA=3Dnew Date();if(typeof(Ads_debug)=3D=3D'undefined') =
+Ads_debug=3D0;if(typeof(Ads_sec)=3D=3D'undefined') =
+Ads_sec=3D0;if(typeof(Ads_klist)!=3D'string') =
+Ads_klist=3D'';if(typeof(Ads_fcount)!=3D'object') =
+Ads_fcount=3D[];if(typeof(Ads_idl)!=3D'string') =
+Ads_idl=3D'';rB(3,'Global Init');var Ba=3Ddocument.cookie+';';var =
+Ca=3D(Ba.indexOf('BSUID=3D')!=3D-1);var Da=3DBa.indexOf('ASLTRG=3D');var =
+Ea,P;if(Da!=3D-1)
+{Ea=3DBa.indexOf(';',Da);P=3DBa.substring(Da+7,Ea);Ads_T=3DP.split('#');A=
+ds_T[7]=3Dunescape(Ads_T[7]);Ads_T[8]=3Dunescape(Ads_T[8]);rB(1,'Load =
+targeting-infos from cookie',P);}else
+{rB(1,'#-#ASLDATA-load start','');document.write('<scr'+'ipt =
+type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"'+kA[Ads_sec]+(Ca?('?rdm=3D'+oB()):'')+'"></scr'+'ipt>');rB(1,'#-#=
+ASLDATA-load ende','');}}hB();
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://a.as-us.falkag.net/dat/dlv/aslsubs111.js
+
+// Falk AdSolution - Copyright (c) 2003 by Falk eSolutions AG - All =
+rights reserved
+function uF(Me,Lg)
+{return (Me=3D=3D0)?'':' '+Lg+'=3D"'+Me+'"';}function =
+vF(s,Q,i,F,h,P,y,z,B)
+{F=3DcB(F);if(Q)
+zF(s,B);s.document.write('<a href=3D"'+eB(h,i) +'" target=3D"'+P+'" =
+onmouseover=3D"self.status=3D\'Falk AdSolution\';return true;" =
+onmouseout=3D"self.status=3D\'\';return true;">');s.document.write('<img =
+src=3D"'+F+'"'+uF(y,'width')+uF(z,'height')+' border=3D"0" =
+id=3D"Ads_img'+Ads_iid+'" name=3D"Ads_img'+Ads_iid+'" =
+alt=3D"'+B+'"></a>');nB(s,i);if(Q)
+aG(s);sA=3D'';tA=3D0;}function wF(s,Q,i,x,h,P,y,z,B,D,E,V,K)
+{if(Q)
+zF(s,B);h=3DeB(h,i);E=3DeB(E,i);x=3DiA[Ads_sec]+'/dat/bgf/'+x;D=3DiA[Ads_=
+sec]+'/dat/bgf/'+D;xA=3Dh;yA=3DeB('',i);var =
+Mg=3Dx+'?clickTag=3D'+escape(h)+'&url=3D'+escape(h);rB(1,'Flash-Url',Mg);=
+var Ua;if(K<=3DuB())
+{s.document.write('<OBJECT =
+classid=3D"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" =
+codebase=3D"http://download.macromedia.com/pub/shockwave/cabs/flash/swfla=
+sh.cab#version=3D3,0,0,0" =
+id=3Dbanner'+uF(y,'width')+uF(z,'height')+'">');s.document.write('<PARAM =
+NAME=3Dmovie VALUE=3D"'+Mg+'"><PARAM NAME=3Dquality =
+VALUE=3Dautohigh><PARAM name=3Dscale =
+value=3Dexactfit>');s.document.write('<EMBED src=3D"'+Mg+'" =
+quality=3Dautohigh swLiveConnect=3DTRUE'+uF(y,'width')+uF(z,'height')+' =
+TYPE=3D"application/x-shockwave-flash" =
+PLUGINSPAGE=3D"http://www.macromedia.com/shockwave/download/index.cgi?P1_=
+Prod_Version=3DShockwaveFlash"></EMBED></OBJECT>');}else
+{s.document.write('<a href=3D"'+E+'" target=3D"'+P+'" =
+onmouseover=3D"self.status=3D\'Falk AdSolution\';return true;" =
+onmouseout=3D"self.status=3D\'\';return true;"><img =
+src=3D"'+D+'"'+uF(y,'width')+uF(z,'height')+' border=3D"0" =
+alt=3D"'+B+'"></a>');}nB(s,i);if(Q)
+aG(s);sA=3D'';tA=3D0;}function xF(s,Q,i,h,j,k,v,W,y,z,N)
+{var x=3DiA[Ads_sec]+'/dat/brf/'+sB((N=3D=3D0)?k:N);var =
+Ng,Xd;iid=3DAds_iid;bid=3Dk;rdm=3DjB(j,k,v);if(Q||(W&&rA))
+{var Og=3D'';for(Xd=3D0;Xd<Ads_MultiUrl.length;Xd++)
+Og+=3DAds_MultiUrl[Xd]+'*';Ng=3DAds_wid+'#'+Ads_iid+'#'+j+'#'+k+'#'+Ads_x=
+wid+'#'+Ads_xiid+'#'+Ads_wrd+'#'+Ads_prf+'#'+Ads_par+'#'+Ads_Timestamp+'#=
+'+rdm+'#'+dB()+'#'+Ads_LinkUrl+'#'+Og+'#'+lB();}if(Q)
+{rB(1,'Pop',x+'.html?'+escape(Ng));s.location.href=3Dx+'.html?'+escape(Ng=
+);}else if(W&&rA)
+{rB(1,'Ifr',x+'.html?'+escape(Ng));document.write('<iframe =
+src=3D"'+x+'.html?'+escape(Ng)+'" width=3D"'+y+'" height=3D"'+z+'" =
+noresize scrolling=3D"no" hspace=3D"0" vspace=3D"0" frameborder=3D"0" =
+marginheight=3D"0" marginwidth=3D"0"></iframe>');}else
+{rB(1,'Jsc',x+'.js');document.write('<scr'+'ipt type=3D"text/javascript" =
+language=3D"JavaScript" =
+src=3D"'+x+'.js"></scr'+'ipt>');}sA=3D'';tA=3D0;}function =
+yF(s,Q,i,G,H,W,y,z)
+{H=3DcB(unescape(H));G=3DcB(unescape(G));rB(1,'Redirect-JS',H);rB(1,'Redi=
+rect-HTML',G);if(Q)
+s.location.href=3DG;else
+{if(W&&rA)
+document.write('<iframe src=3D"'+G+'" width=3D"'+y+'" height=3D"'+z+'" =
+noresize scrolling=3D"no" hspace=3D"0" vspace=3D"0" frameborder=3D"0" =
+marginheight=3D"0" marginwidth=3D"0"></iframe>');else
+document.write('<scr'+'ipt type=3D"text/javascript" =
+language=3D"JavaScript" =
+src=3D"'+H+'"></scr'+'ipt>');}nB(window,i);sA=3D'';tA=3D0;}function =
+zF(s,B)
+{s.document.open();s.document.write('<html><head><title>'+B+'</title></he=
+ad><body topmargin=3D"0" leftmargin=3D"0" rightmargin=3D"0" =
+marginwidth=3D"0" marginheight=3D"0"><table width=3D"100%" =
+height=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+align=3D"center"><tr><td valign=3D"middle"><center>');}function aG(s)
+{s.document.write('</center></td></tr></table></body></html>');s.document=
+.close();}function bG(y,z,I,J,O,S,R,L,T,U)
+{var =
+t=3D'locationbar=3Dno,directories=3Dno,statusbar=3Dno,toolbar=3Dno,locati=
+on=3Dno,menubar=3Dno,personalbar=3Dno';var Pg=3D'Ads_Popup'+Ads_iid;var =
+Qg,Rg;var Sg=3D0;var Tg=3D0;if(S)
+{if (pA)
+{Sg=3D10;Tg=3D30;}else if (qA)
+{Sg=3D20;Tg=3D35;}t+=3D',scrollbars=3Dno,resizable=3Dno,width=3D'+(screen=
+.availWidth-Sg)+',height=3D'+(screen.availHeight-Tg)+',screenX=3D0,screen=
+Y=3D0';if(oA)
+t=3D'fullscreen=3Dyes';}else
+{if(T)
+t+=3D',resizable=3Dyes,width=3D90,height=3D70,innerWidth=3D90,innerHeight=
+=3D70';else
+t+=3D',resizable=3Dno,width=3D'+y+',height=3D'+z;if(U)
+t+=3D',scrollbars=3Dyes';else
+t+=3D',scrollbars=3Dno';if(O=3D=3D16)
+{I=3D(screen.width-y-25)*I/100;J=3D(screen.height-z-50)*J/100;}else =
+if(O=3D=3D24)
+{I=3D(screen.width-y-25)*Math.random();J=3D(screen.height-z-50)*Math.rand=
+om();}if (!rA)
+t+=3D",screenX=3D"+I+",screenY=3D"+J;else
+t+=3D",left=3D"+I+",top=3D"+J;}if((Ads_opt&32)>0)
+Pg+=3DMath.round(Math.random()*100000);if((Ads_opt&64)>0)
+t=3D'locationbar=3Dyes,scrollbars=3Dyes,directories=3Dyes,statusbar=3Dyes=
+,toolbar=3Dyes,location=3Dyes,menubar=3Dyes,personalbar=3Dyes,resizable=3D=
+yes';rB(1,'PopUp open START','');s=3Dwindow.open('',Pg,t);rB(1,'PopUp =
+open END','');if(S&&(!oA))
+s.moveTo(0,0);if(R&&(L=3D=3D0))
+s.blur();else if(R)
+s.setTimeout('window.blur();',L*1000);if(T)
+rF(s,y,z);return s;}// Falk AdSolution - Copyright (c) 2003 by Falk =
+eSolutions AG - All rights reserved
+var rC=3D[];function sC(Fe,Ge)
+{while(Fe.length>800)
+Fe=3DFe.substr(0,Fe.lastIndexOf('#',Fe.length-2)+1);rC[Ge]=3DFe;}function=
+ tC(Ge,Ra)
+{var He=3D'111';var Ie=3D'@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`';var =
+p=3D0;var Je=3D'#'+Ra+':';var Fe=3DrC[Ge];var Ke=3D'';var =
+O=3DFe.indexOf(Je);var Le=3Dnew Date();var Me,Ne,Oe,Pe,Fc;if(Fe=3D=3D'')
+Fe=3D'#';if(O>-1)
+{Ne=3DFe.substr(O+Je.length,3+Ge);if(O>0)
+Ke=3DFe.substr(0,O);Me=3DFe.length-O-Je.length-3-Ge;if(Me>0)
+Ke+=3DFe.substr(O+Je.length+3+Ge,Me);Fe=3DKe;Oe=3Dnew =
+Date(Ie.indexOf(Ne.charAt(0))+2000,Ie.indexOf(Ne.charAt(1))-1,Ie.indexOf(=
+Ne.charAt(2)));Le.setHours(0);Le.setMinutes(0);Le.setSeconds(0);Pe=3D(Le.=
+getTime()-Oe.getTime())/1000/60/60/24;if(Pe<1) He=3D'0';else =
+He=3D'1';if(Pe<7) He+=3D'0';else He+=3D'1';if(Pe<30) He+=3D'0';else =
+He+=3D'1';if(Ge=3D=3D1)
+p=3DIe.indexOf(Ne.charAt(3));}Ne=3D'#'+Ra+':';Fc=3DLe.getYear();if(Fc<190=
+0)
+Fc+=3D1900;Ne+=3DIe.charAt(Fc-2000);Ne+=3DIe.charAt(Le.getMonth()+1);Ne+=3D=
+Ie.charAt(Le.getDate());if(Ge=3D=3D1)
+{p++;if(p>21)
+p=3D21;Ne+=3DIe.charAt(p);He+=3DIe.charAt(p);}Fe=3DNe+Fe;sC(Fe,Ge);return=
+ He;}function uC(Je,Ge,Qe)
+{var Da,Ea,Me,Re,Se;var Fe=3DrC[Ge];var Ke=3D'';var Te=3D'';var =
+Ue=3D-1;if(Fe=3D=3D'')
+Fe=3D'#';Je=3D'#'+Je+'-';Da=3DFe.indexOf(Je);if(Da!=3D-1)
+Ea=3DFe.indexOf('#',Da+1);if((Da!=3D-1)&&(Ea!=3D1))
+{Re=3DFe.substring(Da+Je.length,Ea);if(Da>0)
+Ke=3DFe.substr(0,Da);Me=3DFe.length-Ea;if(Me>0)
+Ke+=3DFe.substr(Ea,Me);Fe=3DKe;if(Ge=3D=3D6)
+{Se=3DRe.split('-');Te=3DSe[0];Re=3DSe[1];}Ue=3DQe-parseInt(Re,10);if(Ue>=
+1200)
+Ue=3D-1;}rC[Ge]=3DFe;return [Ue,Te];}function vC(j)
+{var Ve=3Dnew Date();var =
+Ue=3DVe.getHours()*60*60+Ve.getMinutes()*60+Ve.getSeconds();var =
+We,Xe;We=3DuC(Ads_wid,6,Ue);Xe=3DuC(j,5,Ue);var Ye=3D(We[0]=3D=3D-1);var =
+Ze=3D(Xe[0]=3D=3D-1);var Af=3D(Ye?'1':'0')+(Ze?'1':'0');if(!Ye)
+Af+=3DpB(We[0],4)+We[1];sC('#'+Ads_wid+'-'+Ads_iid+'-'+Ue+rC[6],6);sC('#'=
++j+'-'+Ue+rC[5],5);return Af;}function wC()
+{rB(2,'Read Cookies');var q,Kd,Bf,Cf,Ge;var Ba=3Ddocument.cookie;var =
+Df=3DBa.split(';');var =
+p=3DDf.length;rC=3D['','','','','','','','','',''];for(q=3D0;q<p;q++)
+{Ge=3D-1;Cf=3DDf[q].split('=3D');Kd=3DCf[0];Bf=3DCf[1];if(Kd.charAt(0)=3D=
+=3D' ')
+Kd=3DKd.substr(1,Kd.length-1);if(Kd=3D=3D'KIDYMD')
+rC[1]=3DBf;else if(Kd=3D=3D'WIDYMD')
+rC[0]=3DBf;else if(Kd=3D=3D'BSUID')
+rC[3]=3DBf;else if(Kd=3D=3D'BNDWDT')
+rC[4]=3DBf;else if(Kd=3D=3D'VISKAM')
+rC[5]=3DBf;else if(Kd=3D=3D'VISWEB')
+rC[6]=3DBf;else if(Kd.substr(0,3)=3D=3D'KID')
+Ge=3D2;else if(Kd.substr(0,3)=3D=3D'WID')
+Ge=3D7;else if(Kd.substr(0,3)=3D=3D'NID')
+Ge=3D8;else if(Kd.substr(0,3)=3D=3D'BID')
+Ge=3D9;if(Ge>-1)
+{Kd=3DKd.substr(3,Kd.length-3);rC[Ge]+=3D'#'+Kd+':'+Bf+'#'+Kd+':';}}rC[2]=
+=3D'X'+rC[2]+'X';rC[7]=3D'X'+rC[7]+'X';rC[8]=3D'X'+rC[8]+'X';rC[9]=3D'X'+=
+rC[9]+'X';rB(1,'KIDYMD',rC[1]);rB(1,'WIDYMD',rC[0]);rB(1,'KID' =
+,rC[2]);rB(1,'BID' ,rC[9]);rB(1,'WID' ,rC[7]);rB(1,'NID' =
+,rC[8]);rB(1,'BSUID' =
+,rC[3]);rB(1,'BNDWDT',rC[4]);rB(1,'VISKAM',rC[5]);rB(1,'VISWEB',rC[6]);}f=
+unction xC(j,Kb,k,r,Ef)
+{var v;var Ff=3D'';if(KAS[Kb][4][4]>0)
+Ff=3DiB(KAS[Kb][4][5]);else if((KAS[Kb][5]&1)>0)
+Ff=3DiB(20);if(Ff!=3D'')
+document.cookie=3D'KID'+j+'=3D'+parseInt(yC(j,2)+1,10)+Ff;if(BAS[r][2][4]=
+>0)
+document.cookie=3D'BID'+k+'=3D'+parseInt(yC(k,9)+1,10)+iB(BAS[r][2][5]);i=
+f(((KAS[Kb][4][22]&1)>0)&&(IAS[4]>0))
+document.cookie=3D'WID'+Ads_wid+'=3D'+parseInt(yC(Ads_wid,7)+1,10)+iB(IAS=
+[5]);if(((KAS[Kb][4][22]&2)>0)&&(IAS[6]>0))
+document.cookie=3D'NID'+Ads_nid+'=3D'+parseInt(yC(Ads_nid,8)+1,10)+iB(IAS=
+[7]);v=3DtC(1,j);v=3D'&bls3=3D'+v.substr(0,3)+tC(0,Ads_wid)+v.substr(3,1)=
+;document.cookie=3D'WIDYMD=3D'+rC[0]+iB(60*24*30);document.cookie=3D'KIDY=
+MD=3D'+rC[1]+iB(60*24*30);v+=3D'&bls4=3D'+vC(j);document.cookie=3D'VISKAM=
+=3D'+rC[5]+iB(20);document.cookie=3D'VISWEB=3D'+rC[6]+iB(20);if(rC[3]=3D=3D=
+'')
+rC[3]=3DoB();else
+v+=3D'&uid=3D1';document.cookie=3D'BSUID=3D'+rC[3]+iB(60*24*30);return =
+v;}function yC(Ra,Nc)
+{var Zb=3DrC[Nc].split('#'+Ra+':');if(Zb.length=3D=3D3)
+return parseInt(Zb[1],10);else
+return 0;}// Falk AdSolution - Copyright (c) 2003 by Falk eSolutions AG =
+- All rights reserved
+function vB(Va,Wa)
+{rB(1,'Select-Value',Wa);var q=3D0;var p=3DVa.length;if(p=3D=3D0)
+return -1;while((q<p-1)&&(Wa>Va[q][1]))
+{Wa-=3DVa[q][1];q++;}return Va[q][0];}function wB(Xa,Ya,Za,Ab,Bb)
+{var q,Cb;rB(1,'---- CLOSE OLD PRIORITY','');rB(1,'highest chance of a =
+failed campaign',Xa);rB(1,'share-sum of all failed =
+campaigns',Ya);rB(1,'share-sum of all successfully =
+campaigns',Za);rB(1,'free shares before this =
+priority',Bb);if(mA.length-Ab<=3D0)
+{rB(1,'free shares after this priority',Bb);return Bb;}if(Xa<Ya)
+Ya=3DXa;Za+=3DYa;if(Za>Bb)
+{Cb=3DBb/Za;for(q=3DAb;q<mA.length;q++)
+mA[q][1]*=3DCb;Za=3DBb;}Bb-=3DZa;rB(1,'free shares after this =
+priority',Bb);return Bb;}function xB()
+{rB(0,'campaign-filtering');var Db=3Dfalse;var Eb=3D-1;var Fb,Gb,Hb;var =
+Ib=3D-2;var Jb=3DKAS.length;var Bb=3D100;var Kb,Lb,Mb,Nb,Ob;var Xa;var =
+Ya;var Za;var Ab;mA=3D[];for (Kb=3D0;Kb<Jb;Kb++)
+{if(KAS[Kb][2]!=3DIb)
+{if(Ib!=3D-2)
+Bb=3DwB(Xa,Ya,Za,Ab,Bb);Ib=3DKAS[Kb][2];rB(1,'---- START NEW =
+PRIORITY',Ib);Xa=3D0;Za=3D0;Ya=3D0;Ab=3DmA.length;}rB(1,'<b>campaign =
+'+KAS[Kb][0]+'</b>',KAS[Kb]);Nb=3DKAS[Kb][3];Lb=3DKAS[Kb][1];Hb=3DKAS[Kb]=
+[4];Fb=3DoC(Hb,0,KAS[Kb][0]);if(Fb)
+bA+=3DKAS[Kb][0]+'-';bolTimeTarget=3Dfalse;if(Hb.length>0)
+{bolTimeTarget=3D((Hb[0]=3D=3D0)&&!((Hb[2]=3D=3D0)&&(Hb[3]=3D=3D1439)));F=
+b=3DFb&&(!bolTimeTarget||mC(Hb[2],Hb[3]));if(bolTimeTarget)
+Lb=3DLb*100/KAS[Kb][9];}rB(1,'timetargeting,successful',(bolTimeTarget)+'=
+,'+(!bolTimeTarget||mC(Hb[2],Hb[3])));if(Fb)
+{rB(2,'<font =
+color=3D#008000>successful</font>');mA[mA.length]=3D[Kb,Lb,bolTimeTarget]=
+;Za+=3DLb;}else
+{rB(2,'<font color=3D#ff0000>failed</font>');Ya+=3DLb;if(Xa<Nb)
+Xa=3DNb;}}Bb=3DwB(Xa,Ya,Za,Ab,Bb);}function yB()
+{var Kb=3DxB();var Jb=3DmA.length;var Kb;var q;var Pb=3D0;var Lb;var =
+Mb;var Qb;var Nb;var Rb;var Sb;var Tb;var Ub;var =
+Vb;wA=3D'';if((Ads_iid=3D=3D10130)||(Ads_iid=3D=3D5633))
+{for(q=3D0;q<Jb;q++)
+wA+=3DKAS[mA[q][0]][0]+','+mA[q][1]+','+KAS[mA[q][0]][3]+'-';wA+=3D'&';}r=
+B(0,'chances-sharecorrection and campaign-selection');for =
+(Kb=3D0;Kb<Jb;Kb++)
+{q=3DmA[Kb][0];Lb=3DmA[Kb][1];Nb=3DKAS[q][3];Mb=3DKAS[q][8];if(Mb=3D=3D-1=
+)
+Mb=3D0;Ub=3DKAS[q][10];Vb=3DIAS[10];if(((Vb-Ub)>0)&&mA[Kb][2])
+Mb=3DMb*Vb/(Vb-Ub);rB(1,'Ist/Soll:',Mb+'/'+Lb);if((1-Mb/Lb)>0.1)
+{rB(1,'difference of target/quota too high =
+(ID,trg,act,dif)',KAS[q][0]+','+Lb+','+Mb+','+(1-Mb/Lb));Ob=3D(KAS[q][4].=
+length=3D=3D0)?false:(KAS[q][4][4]>0);if((((Lb-Mb)*10/Nb)>Math.random())&=
+&(KAS[q][2]>0))
+{rB(1,'<font color=3D#008000><b>TARGET&lt;QUOTA: =
+DIRECT-SELECTION</b></font>','');if(wA!=3D'') wA+=3D'&d';return =
+q;}}if(Nb>0)
+{Rb=3DLb*100/Nb;if(Rb>100)
+Rb=3D100;}else
+Rb=3D100;Sb=3D100-Lb;Tb=3D100-Rb;if(Tb>0)
+{Qb=3DRb*Sb/Tb;if(Qb>10000000)
+Qb=3D10000000;}else
+Qb=3D10000000;mA[Kb][1]=3DQb;rB(1,'Campaign,Chance,ShareActual,ShareQuota=
+Before,ShareQuotaAfter',KAS[q][0]+' ,'+Nb+' ,'+KAS[q][8]+' ,'+Lb+' =
+,'+Qb);Pb+=3DQb;}return vB(mA,Pb*Math.random());}function zB(Kb,j)
+{var Wb=3D[];var Xb=3DBAS.length;var Yb=3D((KAS[Kb][5]&1)>0);var =
+Pb=3D0;var r,Lb,Zb,Ac,Bc,Cc;var Dc=3Dtrue;for (r=3D0;r<Xb;r++)
+{rB(1,'<b>Banner =
+'+BAS[r][0]+'</b>',BAS[r]);strInhalt=3DBAS[r][21];Cc=3D((strInhalt.length=
+<3)||(strInhalt.indexOf('#'+Ads_iid+'#')>-1));if(((Ads_xl>1)||(Ads_yl>1))=
+&&((BAS[r][13]>1)||(BAS[r][14]>1)))
+{Dc=3D((Ads_xl=3D=3DBAS[r][13])&&(Ads_yl=3D=3DBAS[r][14]));rB(1,'Bannersi=
+ze',Dc);}if(Dc&&Cc&&oC(BAS[r][2],1,BAS[r][0]))
+{Lb=3DBAS[r][1];rB(2,'<font =
+color=3D#008000>successful</font></b>,Anteil:'+Lb+'<b>');Wb[Wb.length]=3D=
+[r,Lb];Pb+=3DLb;}else
+{rB(2,'<font color=3D#ff0000>failed</font>');}}Xb=3DWb.length;if(Yb)
+{Ac=3DyC(j,2);if(Xb>0)
+r=3DWb[Ac%Xb][0];else
+r=3D-1;}else
+r=3DvB(Wb,Pb*Math.random());return r;}// Falk AdSolution - Copyright (c) =
+2003 by Falk eSolutions AG - All rights reserved
+var aC=3Dfalse;var bC;var cC;var dC=3D0;function eC(Ec)
+{return =
+pB(Ec.getHours(),2)+':'+pB(Ec.getMinutes(),2)+':'+pB(Ec.getSeconds(),2);}=
+function fC(Ec)
+{var Fc=3DEc.getYear();if(Fc<1900)
+Fc+=3D1900;return =
+pB(Fc,4)+'-'+pB(Ec.getMonth()+1,2)+'-'+pB(Ec.getDate(),2);}function gC()
+{if(aC)
+return;var Gc,Hc,Ic,q,Jc;var Kc=3Dnew Date();var Lc=3Dnew =
+Date();Lc.setTime(Kc-0+parseInt(Ads_T[9],10));Gc=3DrC[1].split('#');Hc=3D=
+Gc.length-1;Ic=3D',';for(q=3D1;q<Hc;q++)
+{Jc=3DGc[q].split(':');Ic+=3DJc[0]+',';}aC=3Dtrue;bC=3D';keyword=3D'+esca=
+pe(Ads_wrd) +';user-domain=3D'+Ads_T[5] +';user-ip=3D'+Ads_T[6] =
++';url=3D'+escape(window.location.href) =
++';accept-language=3D'+escape(Ads_T[7]) =
++';accept-charset=3D'+escape(Ads_T[8]) =
++';user-agent=3D'+escape(navigator.userAgent) =
++';browser-name=3D'+escape(navigator.appName) =
++';browser-version=3D'+escape(navigator.appVersion) =
++';flash-version=3D'+uB() =
++';user-day=3D'+(Kc.getDay()=3D=3D0?7:Kc.getDay()) =
++';user-time=3D'+eC(Kc) +';user-date=3D'+fC(Kc) =
++';server-day=3D'+(Lc.getDay()=3D=3D0?7:Lc.getDay()) =
++';server-time=3D'+eC(Lc) +';server-date=3D'+fC(Lc) +';campaigns=3D'+Ic =
++';';if(navigator.appVersion.substring(0,1)>'3')
+bC+=3D'java=3D'+(navigator.javaEnabled()?'1':'0') =
++';screen-width=3D'+screen.width +';screen-height=3D'+screen.height =
++';window-width=3D'+(window.innerWidth?window.innerWidth:document.body.cl=
+ientWidth) =
++';window-height=3D'+(window.innerWidth?window.innerHeight:document.body.=
+clientHeight) +';color-depth=3D'+screen.colorDepth =
++';';rB(1,'Environment values',bC);}function hC(Mc,p,Ra,Nc,Oc,Pc)
+{var Qc;if((p>0)&&(Mc>0))
+{Qc=3D(yC(Ra,Nc)<p);if((Qc?1:0)=3D=3DOc)
+return Oc;cC[Pc]=3DQc;}return 2;}function iC(Rc,Sc,Tc,Oc,Pc)
+{var Qc;if(Rc.length>1)
+{Qc=3D(Rc.indexOf('#'+Ads_T[Sc]+'#')!=3D-1);Qc=3DTc>0?!Qc:Qc;if((Qc?1:0)=3D=
+=3DOc)
+return Oc;cC[Pc]=3DQc;}return 2;}function jC(Rc,Tc,Oc,Uc,Pc)
+{if(Rc=3D=3D'')
+return 2;var q,Ma,Vc,Wc,Xc,Yc,Zc,Ad,Bd;var =
+Qc=3Dfalse;Rc=3DRc.substr(1,Rc.length-2);var Hb=3DRc.split('#');var =
+p=3DHb.length;if(p>0)
+{if(Uc)
+{strTrenner=3D'!"%&\'()*+,-./:;<=3D>?@[\\]^_{|}~=A7 =
+';Ma=3D'';Yc=3DAds_wrd.length;for(q=3D0;q<Yc;q++)
+{Xc=3DAds_wrd.charAt(q);if(strTrenner.indexOf(Xc)!=3D-1)
+Xc=3D'#';Ma+=3DXc;}Ma=3D'#'+Ma.toLowerCase()+'#';Vc=3DMa;}else
+{Ma=3D'#'+Ads_T[5]+'#';Vc=3D'#'+Ads_T[6]+'#';}for(q=3D0;(q<p)&&(Qc=3D=3Df=
+alse);q++)
+{Ad=3DHb[q];Zc=3Dfalse;if(Ad.substring(0,1)=3D=3D'$')
+{Ad=3DAd.substring(1,Ad.length-1);Zc=3Dtrue;}Wc=3Dfalse;Bd=3DMa;if(Ad.sub=
+string(0,1)=3D=3D'!')
+{Ad=3DAd.substring(1,Ad.length-1);Bd=3DVc;Wc=3Dtrue;}if(Uc)
+Ad=3D'#'+Ad;if(!Wc)
+Ad+=3D'#';Qc=3D(Bd.indexOf(Ad)!=3D-1);if(Zc&&Qc)
+{Qc=3Dfalse;q=3Dp;}}Qc=3DTc>0?!Qc:Qc;if((Qc?1:0)=3D=3DOc)
+return Oc;cC[Pc]=3DQc;}return 2;}function kC(Cd,Dd)
+{var Ed=3D[];var Fd=3D0;var q,Gd;var p=3DCd.length;for(q=3D0;q<p;q++)
+{Gd=3DCd[q];if(Gd>=3D0)
+{Ed[Fd]=3DDd[Gd];Fd++;}else if(Gd=3D=3D-2)
+{Fd--;Ed[Fd-1]=3D(Ed[Fd-1]&&Ed[Fd]);}else if(Gd=3D=3D-4)
+{Fd--;Ed[Fd-1]=3D(Ed[Fd-1]||Ed[Fd]);}else if(Gd=3D=3D-3)
+Ed[Fd-1]=3D(!Ed[Fd-1]);}return Ed[Fd-1];}function =
+lC(Hb,Hd,Tc,Id,Jd,Oc,Pc)
+{var Qc,Kd,Ld,Md,Nd,Od,A,Pd;var Qd,Rd;var q=3D0;var p=3DHb.length;var =
+Dd=3D[];for(q=3D0;q<p;q++)
+{Kd=3DHb[q][0];Ld=3DHb[q][1];A=3DHb[q][2];Pd=3DHb[q][3];rB(1,'Profile/Env=
+ironment -> =
+Name,WishedValue,Type,Operator',Kd+','+Ld+','+A+','+Pd);Qd=3DHd.indexOf('=
+;'+Kd+'=3D');if(Qd>-1)
+{Rd=3DHd.indexOf(';',Qd+1);if(Rd>Qd)
+Od=3Dunescape(Hd.substring(Qd+2+Kd.length,Rd));else
+Od=3D'';if(A=3D=3D5)
+A=3D1;if(A=3D=3D1)
+Md=3D0;else
+Md=3D'';if((Pd=3D=3D9)||(Pd=3D=3D10))
+{Nd=3DLd.split(';');if(Nd.length=3D=3D2)
+{Ld=3DNd[0];Md=3DNd[1];}else
+Pd=3D0;}if(A=3D=3D1)
+{Od=3DparseFloat(Od);Ld=3DparseFloat(Ld);Md=3DparseFloat(Md);}if((Pd>5)&&=
+(Pd<9))
+{Od=3DOd.toLowerCase();Ld=3DLd.toLowerCase();}if(Pd=3D=3D0)
+Qc=3D(Od=3D=3DLd)
+else if(Pd=3D=3D1)
+Qc=3D(Od!=3DLd)
+else if(Pd=3D=3D2)
+Qc=3D(Od<Ld)
+else if(Pd=3D=3D3)
+Qc=3D(Od<=3DLd)
+else if(Pd=3D=3D4)
+Qc=3D(Od>Ld)
+else if(Pd=3D=3D5)
+Qc=3D(Od>=3DLd)
+else if(Pd=3D=3D6)
+Qc=3D(Od.indexOf(Ld)>-1);else if(Pd=3D=3D7)
+Qc=3D(Od.indexOf(Ld)<0);else if(Pd=3D=3D8)
+Qc=3DOd.substr(0,Ld.length-1)=3D=3DLd;else if(Pd=3D=3D9)
+Qc=3D((Od>=3DLd)&&(Od<=3DMd))
+else if(Pd=3D=3D10)
+Qc=3D((Od<Ld)||(Od>Md))
+}else
+{Qc=3Dfalse;}rB(1,'Profile/Environment -> result',Qc);if(Id=3D=3D2)
+Dd[q]=3DQc;else
+{if((Qc&&(Id=3D=3D1))||(!Qc&&(Id=3D=3D0)))
+q=3Dp;}}if(Id=3D=3D2)
+Qc=3DkC(Jd,Dd);Qc=3DTc>0?!Qc:Qc;if((Qc?1:0)=3D=3DOc)
+return Oc;cC[Pc]=3DQc;return 2;}function mC(Sd,Td)
+{var Kc=3Dnew Date();var Lc=3Dnew =
+Date();Lc.setTime(Kc-0+parseInt(Ads_T[9],10));var =
+Ud=3DLc.getHours()*60+Lc.getMinutes();if(Sd<Td)
+Qc=3D((Ud>=3DSd)&&(Ud<=3DTd));else
+Qc=3D((Ud>=3DSd)||(Ud<=3DTd));return Qc;}function nC(Vd,Wd)
+{var p=3DVd.length;var Xd;if(typeof(Vd.Ads_klist)=3D=3D'string')
+Wd+=3DVd.Ads_klist+'#';for(Xd=3D0;Xd<p;Xd++)
+Wd=3DnC(Vd.frames[Xd],Wd);return Wd;}function oC(Hb,A,Ra)
+{var Oc=3DHb[0];var Tc=3DHb[1];var =
+Qc,Yd,Zd,Gc,Hc,q,Ae,Be,Ce,De;cC=3D[true,true,true,true,true,true,true,tru=
+e,true,true,true,true,true,true,true];if(Hb.length=3D=3D0)
+return true;rB(1,'Targeting',Hb);if((Oc>0)||(A=3D=3D1))
+{Qc=3DmC(Hb[2],Hb[3]);rB(1,'Time',Qc);if((Qc?1:0)=3D=3DOc)
+return =
+Qc;cC[0]=3DQc;}Yd=3DhC(1,Hb[4],Ra,(A=3D=3D0)?2:9,Oc,1);rB(1,'Frequency =
+(Max:'+Hb[4]+',actual:'+yC(Ra,(A=3D=3D0)?2:9)+')',Yd!=3D0);if(Yd<2)
+return Yd=3D=3D1;if(A=3D=3D0)
+{Yd=3DhC(Hb[22]&1,IAS[4],Ads_wid,7,Oc,12);rB(1,'Frequency =
+(WebSite)',Yd!=3D0);if(Yd<2)
+return =
+Yd=3D=3D1;Yd=3DhC(Hb[22]&2,IAS[6],Ads_nid,8,Oc,13);rB(1,'Frequency =
+(Network)',Yd!=3D0);if(Yd<2)
+return Yd=3D=3D1;}Yd=3DiC(Hb[6],0,Tc&1,Oc,2);rB(1,'OS',Yd!=3D0);if(Yd<2)
+return =
+Yd=3D=3D1;Yd=3DiC(Hb[7],1,Tc&2,Oc,3);rB(1,'Browser',Yd!=3D0);if(Yd<2)
+return =
+Yd=3D=3D1;Yd=3DiC(Hb[8],2,Tc&4,Oc,4);rB(1,'Country',Yd!=3D0);if(Yd<2)
+return =
+Yd=3D=3D1;Yd=3DiC(Hb[9],3,Tc&8,Oc,5);rB(1,'Provider',Yd!=3D0);if(Yd<2)
+return Yd=3D=3D1;if(Hb[10].length>1)
+{Qc=3D((Hb[10].indexOf('#'+Ads_T[4]+'#')!=3D-1)||(Hb[10].indexOf('#%'+Ads=
+_T[10]+'#')!=3D-1)||(Hb[10].indexOf('#$'+Ads_T[11]+'#')!=3D-1));Qc=3D(Tc&=
+16)>0?!Qc:Qc;rB(1,'Region',Qc);if((Qc?1:0)=3D=3DOc)
+return =
+Oc;cC[6]=3DQc;}Yd=3DjC(Hb[11],Tc&32,Oc,false,7);rB(1,'Domain',Yd!=3D0);if=
+(Yd<2)
+return =
+Yd=3D=3D1;Yd=3DjC(Hb[12],Tc&64,Oc,true,8);rB(1,'Keyword',Yd!=3D0);if(Yd<2=
+)
+return Yd=3D=3D1;if(Hb[13].length>0)
+{Yd=3DlC(Hb[13],';'+Ads_prf+';',Tc&128,Hb[15],Hb[17],Oc,9);rB(1,'Profile'=
+,Yd!=3D0);if(Yd<2)
+return Yd=3D=3D1;}if(Hb[14].length>0)
+{gC();Yd=3DlC(Hb[14],bC,Tc&256,Hb[16],Hb[18],Oc,10);rB(1,'Environment',Yd=
+!=3D0);if(Yd<2)
+return Yd=3D=3D1;}if(Hb[21]>0)
+{if(rC[4]=3D=3D'')
+{Zd=3D0;if(dC=3D=3D0)
+dC=3D1;}else
+Zd=3DparseInt(rC[4],10);Qc=3D((Zd>=3DHb[20])&&(Zd<=3DHb[21]));Qc=3D(Tc&51=
+2)>0?!Qc:Qc;rB(1,'Bandwidth',Qc);if((Qc?1:0)=3D=3DOc)
+return Qc;cC[11]=3DQc;}De=3DHb[23];if((A=3D=3D0)&&(De>0))
+{Gc=3DHb[24];Hc=3DGc.length;Ae=3D-1;strKList=3D'#'+nC(top,'');for(q=3D0;(=
+q<Hc)&&(Ae<0);q++)
+{Be=3D(strKList.indexOf('#'+Gc[q]+'#')>-1);if((Be?1:4)=3D=3DDe)
+Ae=3D0;if((Be?3:2)=3D=3DDe)
+Ae=3D1;}if(Ae<0)
+Ae=3D((De=3D=3D1)||(De=3D=3D4))?1:0;rB(1,'showed =
+Camppaigns,In/Exclude',strKList+','+Ae);if(Ae=3D=3DOc)
+return (Ae=3D=3D1);cC[14]=3D(Ae=3D=3D1);}q=3DHb[25];if(q>0)
+{Be=3DIAS[8].indexOf('#'+q+':');if(Be!=3D-1)
+{Be=3DIAS[8].indexOf(':',Be);Ce=3DIAS[8].indexOf('#',Be);Be=3DIAS[8].subs=
+tring(Be+1,Ce);Ce=3DAds_fcount[q];if(typeOf(Ce)=3D=3D'undefined')
+Ce=3D0;Qc=3DBe>Ce;rB(1,'Family',Qc);if((Qc?1:0)=3D=3DOc)
+return Qc;cC[15]=3DQc;}}if(Oc!=3D2)
+return true;else
+return kC(Hb[19],cC);}function pC()
+{if(dC!=3D1)
+return;document.write('<applet codebase=3D"'+lA[Ads_sec]+'" =
+code=3D"bandwidth.class" id=3D"bandwidth" name=3D"bandwidth" width=3D"0" =
+height=3D"0" mayscript=3D"MAYSCRIPT"><param name=3D"cbfunc" =
+value=3D"qC"></applet>');dC=3D2;}function qC(Ee)
+{document.cookie=3D'BNDWDT=3D'+(Ee*8)+iB(60*24*7);}
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0037_01C36355.B8475B40"
+
+
+------=_NextPart_001_0037_01C36355.B8475B40
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.winguides.com/registry/display.php/280/
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Change the Maximum Transmission Unit (MTU) Size =
+(Windows NT/2000/XP) at Registry Guide for Windows</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META=20
+content=3D"This parameter specifies the Maximum Transmission Unit (MTU) =
+for a network interface. By optimizing the MTU setting you can gain =
+substantial network performance increases, especially when using dial-up =
+modem connections."=20
+name=3Ddescription>
+<META=20
+content=3D"MTU, windows registry, regedit, system registry, regedt32, =
+regedit.exe, window, microsoft windows, windows 98, windows nt, windows =
+2000, windows xp, windows 95, windows ce, windows me, pocket pc, =
+millennium, edition, 2k, winme, win2k, win32, x-box, xbox, tweaks, =
+hacks, tweaking, hacking, cable modem, dsl, adsl, xdsl, modem, =
+broadband, speed tweaks, guide, tutorials, edit, editor, editing, =
+troubleshooting, troubleshoot, restoring, restore, backup, error, fault, =
+incorrect, hacks, secret, programming, command line, policy editor, inf =
+file, cleaner, checker, corrupt, tutorial, help, faq, support, clean, =
+tool, repair, deleting, settings, batch, computer, pc, internet, speed"=20
+name=3Dkeywords>
+<META content=3DTRUE name=3DMSSmartTagsPreventParsing>
+<META http-equiv=3Dpics-label=20
+content=3D'(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true =
+for "http://www.winguides.com/" r (ca 1 lz 1 nz 1 oz 1 vz 1) =
+"http://www.rsac.org/ratingsv01.html" l gen true for =
+"http://www.winguides.com/" r (n 0 s 0 v 0 l 0))'><LINK=20
+href=3D"http://www.winguides.com/stylesheets/winguides.css" =
+type=3Dtext/css=20
+rel=3Dstylesheet>
+<SCRIPT language=3DJavaScript1.2=20
+src=3D"http://www.winguides.com/js/fcpopup.js"></SCRIPT>
+
+<SCRIPT language=3DJavaScript1.2>=0A=
+<!--=0A=
+function popuphelp (page, section) {=0A=
+  =
+window.open('/help/'+page+'.php#'+section,'help','width=3D300,height=3D30=
+0,toolbar=3Dno,scrollbars=3Dyes,menubar=3Dno,status=3Dno')=0A=
+}=0A=
+-->=0A=
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.2800.1170" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 link=3D#003399 bgColor=3D#ffffff leftMargin=3D0 =
+topMargin=3D0=20
+marginwidth=3D"0" marginheight=3D"0">
+<TABLE height=3D77 cellSpacing=3D0 cellPadding=3D4 width=3D"100%" =
+bgColor=3D#10418c=20
+background=3Dhttp://www.winguides.com/images/shade.gif border=3D0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=3D11 =
+src=3D"http://www.winguides.com/images/blank.gif" width=3D1=20
+      border=3D0></TD></TR>
+  <TR>
+    <TD vAlign=3Dcenter align=3Dmiddle><IMG height=3D32=20
+      alt=3D"Registry Guide for Windows" hspace=3D4=20
+      src=3D"http://www.winguides.com/images/icons/registry_large.gif" =
+width=3D32=20
+      border=3D0> </TD>
+    <TD vAlign=3Dcenter width=3D"100%">
+      <H1 class=3Dpagetitle>Registry Guide for Windows</H1><SPAN=20
+      class=3Dpagetitlesmall>Part of the <A class=3Dpagetitlesmall=20
+      href=3D"http://www.winguides.com/"><B>WinGuides =
+Network</B></A></SPAN> </TD>
+    <TD vAlign=3Dcenter align=3Dright><A =
+href=3D"http://www.winguides.com/"><IMG=20
+      height=3D40 alt=3D"WinGuides Network and Software" hspace=3D6=20
+      src=3D"http://www.winguides.com/images/wgnlogo.gif" width=3D180 =
+border=3D0></A>=20
+    </TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D2 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR bgColor=3D#6b8ec6>
+    <TD class=3Dpagetitlesmall align=3Dmiddle>Registry tweaks, tricks =
+&amp; hacks=20
+      to optimize, enhance and secure Microsoft =
+Windows.</TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop align=3Dmiddle width=3D140>
+      <TABLE cellSpacing=3D0 cellPadding=3D2 width=3D"100%" =
+bgColor=3D#6b8ec6=20
+        border=3D0><TBODY>
+        <TR>
+          <FORM name=3Dsearch =
+action=3Dhttp://www.winguides.com/search.php=20
+          method=3Dget>
+          <TD align=3Dmiddle><INPUT type=3Dhidden value=3Dregistry =
+name=3Dguide>=20
+            <INPUT=20
+            =
+onfocus=3D"document.search.keywords.value=3D'';document.search.keywords.s=
+elect()"=20
+            size=3D12 value=3D"Quick Search" =
+name=3Dkeywords>&nbsp;<INPUT type=3Dimage=20
+            height=3D14 alt=3D"Search Now" width=3D15=20
+            src=3D"http://www.winguides.com/images/searchsite.gif" =
+value=3DGo><BR><A=20
+            =
+href=3D"http://www.winguides.com/search.php?guide=3Dregistry"><SPAN=20
+            class=3Dpagetitlesmall>[Advanced&nbsp;Search]</SPAN></A>=20
+        </TD></FORM></TR></TBODY></TABLE><IMG height=3D1=20
+      src=3D"http://www.winguides.com/images/blank.gif" width=3D140 =
+border=3D0>
+      <P>
+      <TABLE class=3Dmenu cellSpacing=3D0 cellPadding=3D2 width=3D130 =
+border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dmenutitle><IMG height=3D11 alt=3D""=20
+            src=3D"http://www.winguides.com/images/menuicon.gif"=20
+            width=3D11>&nbsp;Features</TD></TR>
+        <TR>
+          <TD class=3Dmenubody noWrap>&nbsp;<A=20
+            href=3D"http://www.winguides.com/registry/">Home =
+Page</A><BR>&nbsp;<A=20
+            href=3D"http://www.winguides.com/forums/">Support=20
+            Forums</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/software/category.php/7/">Downloads</A><=
+BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/article.php?id=3D1&amp;guide=3Dregistry"=
+>Registry=20
+            Tutorial</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/newsletter.php?guide=3Dregistry">Newslet=
+ter</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/guides.php?guide=3Dregistry">Download=20
+            Guide</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/amazon/?guide=3Dregistry">Suggested=20
+            Books</A><BR>
+            <HR color=3D#6b8ec6 noShade SIZE=3D1>
+            &nbsp;<A href=3D"http://www.winguides.com/tweak/">Tweak=20
+            Manager</A><BR>&nbsp;<A=20
+            href=3D"http://www.winguides.com/regmech/">Registry=20
+        Mechanic</A><BR></TD></TR></TBODY></TABLE>
+      <P><IMG height=3D15 =
+src=3D"http://www.winguides.com/images/adhead.gif"=20
+      width=3D120 border=3D0><BR><IFRAME marginWidth=3D0 =
+marginHeight=3D0=20
+      =
+src=3D"http://a.as-us.falkag.net/dat/dlv/aslframe.html?dat=3D9347&amp;xl=3D=
+125&amp;yl=3D125&amp;wrd=3D&amp;prf=3D"=20
+      frameBorder=3D0 noResize width=3D125 scrolling=3Dno=20
+      height=3D125>=0A=
+<script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"http://a.as-us.falkag.net/dat/dlv/aslmain.js"></script>=0A=
+<script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"http://a.as-us.falkag.net/dat/dlv/aslsubs111.js"></script>=0A=
+<script language=3D"JavaScript"><!--=0A=
+Ads_kid=3D0;Ads_bid=3D0;Ads_xl=3D125;Ads_yl=3D125;Ads_xp=3D'';Ads_yp=3D''=
+;Ads_opt=3D0;Ads_wrd=3D'';Ads_prf=3D'';Ads_par=3D'';Ads_cnturl=3D'';Ads_s=
+ec=3D0;=0A=
+// --></script>=0A=
+<script type=3D"text/javascript" language=3D"JavaScript" =
+src=3D"http://a.as-us.falkag.net/dat/cjf/00/00/93/47.js"></script>=0A=
+</IFRAME>
+      <P>
+      <TABLE class=3Dmenu cellSpacing=3D0 cellPadding=3D2 width=3D130 =
+border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dmenubody><IMG height=3D16 alt=3D"Print this =
+article"=20
+            =
+src=3D"http://www.winguides.com/images/icons/printer_small.gif"=20
+            width=3D16 border=3D0>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/registry/display.php?id=3D280&amp;filter=
+=3Dplain"=20
+            target=3D_blank>Print this page</A><BR><IMG height=3D16=20
+            alt=3D"E-mail this Article"=20
+            =
+src=3D"http://www.winguides.com/images/icons/email_small.gif" width=3D16 =
+
+            border=3D0>&nbsp;<A=20
+            href=3D"mailto:?subject=3DWinGuides Network for Windows =
+Article&amp;body=3DChange the Maximum Transmission Unit (MTU) Size at =
+http://www.winguides.com/registry/display.php?280  This article is =
+available at the Windows Registry Guide site.">E-mail=20
+            this page</A><BR><IMG height=3D16 alt=3D"Add to Favorites"=20
+            =
+src=3D"http://www.winguides.com/images/icons/favorites_small.gif"=20
+            width=3D16 border=3D0>&nbsp;<A=20
+            =
+href=3D"javascript:window.external.AddFavorite('http://www.winguides.com/=
+registry/display.php/280/',%20document.title)">Add=20
+            to favorites</A><BR></TD></TR></TBODY></TABLE>
+      <P>
+      <TABLE class=3Dmenu cellSpacing=3D0 cellPadding=3D2 width=3D130 =
+border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dmenutitle><IMG height=3D11 alt=3D""=20
+            src=3D"http://www.winguides.com/images/menuicon.gif"=20
+            width=3D11>&nbsp;Information</TD></TR>
+        <TR>
+          <TD class=3Dmenubody noWrap>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/subscribe/?guide=3Dregistry"><B>Subscrib=
+e</B></A>&nbsp;<IMG=20
+            height=3D15 alt=3DPremium=20
+            src=3D"http://www.winguides.com/images/premium.gif" =
+width=3D12=20
+            border=3D0><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/forums/postlist.php?Board=3DbrdNewTweaks=
+">Suggest=20
+            Tweak</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/mediakit.php?guide=3Dregistry">Advertise=
+</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/contact.php?guide=3Dregistry">Contact=20
+            Us</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/linktous.php?guide=3Dregistry">Link to=20
+            Us</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/links.php?guide=3Dregistry">Related=20
+            Links</A><BR>&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/subscribe/affiliate.php?guide=3Dregistry=
+">Affiliate=20
+            Program</A><BR></TD></TR></TBODY></TABLE>
+      <P></P></TD>
+    <TD vAlign=3Dtop align=3Dmiddle width=3D"100%">
+      <TABLE cellSpacing=3D0 cellPadding=3D6 width=3D"100%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD class=3Dusername align=3Dright>Already a member? <A=20
+            =
+href=3D"http://www.winguides.com/login.php?guide=3Dregistry">Sign=20
+            in</A>&nbsp;&nbsp;Not a member? <A=20
+            =
+href=3D"http://www.winguides.com/newuser.php?guide=3Dregistry">Register</=
+A>&nbsp;=20
+          </TD></TR></TBODY></TABLE><IFRAME marginWidth=3D0 =
+marginHeight=3D0=20
+      =
+src=3D"http://media.winguides.com/ads/adcycle.cgi?gid=3D2&amp;t=3D_top&am=
+p;id=3D1016169132&amp;type=3Diframe"=20
+      frameBorder=3D0 width=3D468 scrolling=3Dno=20
+      height=3D60>=0A=
+  <a =
+href=3D"http://media.winguides.com/ads/adclick.cgi?gid=3D2&id=3D128637724=
+2" target=3D"_blank">=0A=
+  <img =
+src=3D"http://media.winguides.com/ads/adcycle.cgi?gid=3D2&id=3D1286377242=
+" width=3D"468" height=3D"60" border=3D"0" alt=3D"Click Here"></a>=0A=
+ </IFRAME><BR><IMG=20
+      height=3D15 src=3D"http://www.winguides.com/images/adfoot.gif" =
+width=3D120=20
+      border=3D0><BR>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"98%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dtop><A=20
+            =
+href=3D"http://www.winguides.com/registry/">Home</A>&nbsp;&gt;&nbsp;Netwo=
+rk&nbsp;&gt;&nbsp;Protocols&nbsp;&gt;&nbsp;<A=20
+            =
+href=3D"http://www.winguides.com/registry/category.php?310">TCP-IP</A><BR=
+><BR><SPAN=20
+            class=3Dheader>Change the Maximum Transmission Unit (MTU) =
+Size</SPAN>=20
+            <I>(Windows NT/2000/XP)</I> <FONT =
+color=3Dgreen><I>Popular</I></FONT>=20
+            <BR>This parameter specifies the Maximum Transmission Unit =
+(MTU) for=20
+            a network interface. By optimizing the MTU setting you can =
+gain=20
+            substantial network performance increases, especially when =
+using=20
+            dial-up modem connections.<BR><BR><B>MTU</B> stands for=20
+            <U>M</U>aximum <U>T</U>ransmission <U>U</U>nit and in basic =
+terms,=20
+            it defines the maximum size of a packet that can be =
+transferred in=20
+            one frame over a network.=20
+            <P>Open your <A=20
+            =
+href=3D"http://www.winguides.com/registry/article.php?id=3D1&amp;page=3D3=
+">registry</A>=20
+            and find the key below.=20
+            <P>Create a new DWORD value, or modify the existing value, =
+called=20
+            "MTU" and set it to equal the required MTU size in decimal.=20
+            <P><B>Recommended Values</B>=20
+            <LI><B>576</B> - Dial-up Connections=20
+            <LI><B>1492</B> - PPPoE Broadband Connections=20
+            <LI><B>1500</B> - Ethernet, DSL and Cable Broadband =
+Connections=20
+            <P>Restart Windows for the change to take effect. <I>
+            <P><B>Note:</B> For Windows NT 4 the key is=20
+            [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\=20
+            Tcpip\Parameters]=20
+            <P><B>Note:</B> IP datagrams may span multiple packets. =
+Values=20
+            larger than the default for the underlying network will =
+result in=20
+            the transport using the network default MTU. Values smaller =
+than 68=20
+            will result in the tranport using an MTU of 68. </I>
+            <P>
+            <P><!-- Start Example -->
+            <CENTER>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D525 =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=3D26 alt=3D"Registry Editor Example"=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/window_title.gif"=20
+                  width=3D525 border=3D0></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D525 =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=3D20 alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/side_left.gif"=20
+                  width=3D5 border=3D0></TD>
+                <TD colSpan=3D2><IMG height=3D20 alt=3DName=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/databar_name.gif"=20
+                  width=3D190 border=3D0></TD>
+                <TD><IMG height=3D20 alt=3DType=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/databar_type.gif"=20
+                  width=3D100 border=3D0></TD>
+                <TD><IMG height=3D20 alt=3DData=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/databar_data.gif"=20
+                  width=3D223 border=3D0></TD>
+                <TD><IMG height=3D20 alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/side_right.gif"=20
+                  width=3D7 border=3D0></TD></TR>
+              <TR>
+                <TD><IMG height=3D20 alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/side_left.gif"=20
+                  width=3D5 border=3D0></TD>
+                <TD><IMG height=3D20=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/reg_sz.gif"=20
+                  width=3D20 border=3D0></TD>
+                <TD align=3Dleft width=3D170><FONT face=3Darial=20
+                  size=3D1>(Default)</FONT></TD>
+                <TD align=3Dleft><FONT face=3Darial =
+size=3D1>REG_SZ</FONT></TD>
+                <TD align=3Dleft><FONT face=3Darial size=3D1>(value not=20
+                set)</FONT></TD>
+                <TD><IMG height=3D20 alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/side_right.gif"=20
+                  width=3D7 border=3D0></TD></TR>
+              <TR>
+                <TD><IMG height=3D20 alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/side_left.gif"=20
+                  width=3D5 border=3D0></TD>
+                <TD><IMG height=3D20=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/reg_dword.gif"=20
+                  width=3D20 border=3D0></TD>
+                <TD align=3Dleft width=3D170><FONT face=3Darial =
+size=3D1>MTU</FONT></TD>
+                <TD align=3Dleft><FONT face=3Darial =
+size=3D1>REG_DWORD</FONT></TD>
+                <TD align=3Dleft><FONT face=3Darial size=3D1>0x000005dc=20
+                (1500)</FONT></TD>
+                <TD><IMG height=3D20 alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/side_right.gif"=20
+                  width=3D7 border=3D0></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D525 =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD colSpan=3D3><IMG height=3D5 alt=3D-=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/statusbar_top.gif"=20
+                  width=3D525 border=3D0></TD></TR>
+              <TR>
+                <TD><IMG height=3D20 alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/side_left.gif"=20
+                  width=3D5 border=3D0></TD>
+                <TD width=3D500 bgColor=3D#d6d3ce><FONT face=3Darial=20
+                  =
+size=3D1>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\P...<=
+/FONT></TD>
+                <TD align=3Dright bgColor=3D#d6d3ce><IMG height=3D20 =
+alt=3D|=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/statusbar_right.gif"=20
+                  width=3D20 border=3D0></TD></TR>
+              <TR>
+                <TD colSpan=3D3><IMG height=3D5 alt=3D-=20
+                  =
+src=3D"http://www.winguides.com/images/regedit/statusbar_bottom.gif"=20
+                  width=3D525 =
+border=3D0></TD></TR></TBODY></TABLE></CENTER><!-- End Example -->
+            <P>
+            <CENTER>
+            <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD bgColor=3D#dddddd><B><U>Registry =
+Settings</U></B></TD></TR>
+              <TR>
+                <TD bgColor=3D#eeeeee><A=20
+                  =
+href=3D"javascript:popuphelp('registry-settings','system_key')"><B>System=
+=20
+                  Key:</B></A>=20
+                  =
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\<B=
+R>Interfaces\[Adapter=20
+                  ID]]<BR><A=20
+                  =
+href=3D"javascript:popuphelp('registry-settings','value_name')"><B>Value =
+
+                  Name:</B></A> MTU<BR><A=20
+                  =
+href=3D"javascript:popuphelp('registry-settings','date_type')"><B>Data=20
+                  Type:</B></A> REG_DWORD (DWORD Value)<BR><A=20
+                  =
+href=3D"javascript:popuphelp('registry-settings','value_data')"><B>Value =
+
+                  Data:</B></A> Default =3D=20
+            0xffffffff<BR></TD></TR></TBODY></TABLE></CENTER>
+            <P><B><U>Related Tweaks</U></B><BR>
+            <UL>
+              <LI><A=20
+              =
+href=3D"http://www.winguides.com/registry/display.php/30/"><B>Optimize=20
+              Internet Connection Speed</B></A> <I>(Windows =
+95/98/Me)</I>=20
+            </LI></UL>
+            <P><B>Disclaimer:</B> Modifying the registry can cause =
+serious=20
+            problems that may require you to reinstall your operating =
+system. We=20
+            cannot guarantee that problems resulting from modifications =
+to the=20
+            registry can be solved. Use the information provided at your =
+own=20
+            risk.=20
+            <P>
+            <CENTER>Last Modified: March 20, 2002</CENTER>
+            <P>
+            <CENTER>
+            <SCRIPT language=3DJavaScript>=0A=
+<!--=0A=
+google_ad_client =3D 'pub-5851411610940210';=0A=
+google_ad_width =3D 468;=0A=
+google_ad_height =3D 60;=0A=
+google_ad_format =3D '468x60_as';=0A=
+// -->=0A=
+</SCRIPT>
+
+            <SCRIPT language=3DJavaScript=20
+            =
+src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js">=0A=
+</SCRIPT>
+            =
+</CENTER><BR></LI></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR bgColor=3D#d6d6d6>
+    <TD colSpan=3D100><IMG height=3D3=20
+      src=3D"http://www.winguides.com/images/blank.gif"=20
+border=3D0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D2 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR bgColor=3D#b5b5b5>
+    <TD class=3Dnavlinks><A =
+href=3D"http://www.winguides.com/">Home</A></TD>
+    <TD class=3Dnavlinks><A=20
+      href=3D"http://www.winguides.com/registry/">Registry</A></TD>
+    <TD class=3Dnavlinks><A=20
+      href=3D"http://www.winguides.com/security/">Security</A></TD>
+    <TD class=3Dnavlinks><A=20
+href=3D"http://www.winguides.com/forums/">Forums</A></TD>
+    <TD class=3Dnavlinks><A=20
+      href=3D"http://www.winguides.com/scripting/">Scripting</A></TD>
+    <TD class=3Dnavlinks><A=20
+    =
+href=3D"http://www.winguides.com/drivers/">Drivers</A></TD></TR></TBODY><=
+/TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D3 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR bgColor=3D#848484>
+    <TD align=3Dleft><SPAN class=3Dsmall><FONT color=3Dwhite>Copyright =
+=A9 2003=20
+      GuideWorks. All rights reserved.</FONT></SPAN></TD>
+    <TD align=3Dright><SPAN class=3Dsmall><A=20
+      =
+href=3D"http://www.winguides.com/privacy.php?guide=3Dregistry"><FONT=20
+      color=3Dwhite>Privacy Policy</FONT></A><IMG height=3D12 alt=3D:=20
+      src=3D"http://www.winguides.com/images/v_whitedots.gif" width=3D10 =
+border=3D0><A=20
+      =
+href=3D"http://www.winguides.com/copyright.php?guide=3Dregistry"><FONT=20
+      color=3Dwhite>Legal =
+Notices</FONT></A></SPAN>&nbsp;</TD></TR></TBODY></TABLE>
+<DIV align=3Dleft>
+<SCRIPT language=3DJavaScript1.2=20
+src=3D"http://www.winguides.com/js/menu.js"></SCRIPT>
+
+<SCRIPT language=3DJavaScript1.2=20
+src=3D"http://www.winguides.com/js/toolbar.js"></SCRIPT>
+
+<SCRIPT language=3DJavaScript1.2>=0A=
+<!--=0A=
+oCMenu.makeMenu('top5','','Logged Out','')=0A=
+	oCMenu.makeMenu('sub50','top5','Register =
+Now','http://www.winguides.com/newuser.php')=0A=
+	oCMenu.makeMenu('sub51','top5','Sign =
+In','http://www.winguides.com/login.php')=0A=
+=0A=
+	oCMenu.makeStyle(); oCMenu.construct();=0A=
+-->=0A=
+</SCRIPT>
+</DIV></BODY></HTML>
+
+------=_NextPart_001_0037_01C36355.B8475B40
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://a.as-us.falkag.net/dat/dlv/aslframe.html?dat=9347&xl=125&yl=125&wrd=&prf=
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>AdSolution</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 6.00.2800.1170" name=3DGENERATOR></HEAD>
+<BODY>
+<SCRIPT language=3DJavaScript =
+src=3D"http://a.as-us.falkag.net/dat/dlv/aslmain.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT language=3DJavaScript=20
+src=3D"http://a.as-us.falkag.net/dat/dlv/aslsubs111.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT language=3DJavaScript><!--
+var strUri =3D window.location.href;
+var intPosition =3D strUri.indexOf('?');
+if(intPosition !=3D -1)
+	strUri =3D strUri.substring(intPosition + 1, strUri.length);
+else
+	strUri =3D '';
+var intIndex, arrUri, strName, strValue;
+var strNamen   =3D =
+'#iid#kid#bid#xl#yl#xp#yp#opt#wrd#prf#par#opt#cnturl#sec#debug#';
+
+Ads_iid=3D0;Ads_efx=3D0;
+
+if(strUri !=3D '')
+{
+	arrUri =3D strUri.split('&');
+	for(intIndex =3D 0; intIndex < arrUri.length; intIndex++)
+	{
+		strUri =3D arrUri[intIndex];
+		intPosition =3D strUri.indexOf('=3D');
+		strName =3D strUri.substr(0, intPosition);
+		strName =3D strName.toLowerCase();
+		strValue =3D strUri.substr(intPosition + 1, strUri.length);
+
+		if(strName =3D=3D 'dat')
+			strName =3D 'iid';
+
+		if(strNamen.indexOf('#' + strName + '#') !=3D -1)
+			eval('Ads_' + strName + '=3D\'' + unescape(strValue) + '\';');
+	}
+	strFile =3D "#" + (parseInt(Ads_iid, 10) + 100000000);
+	strFile =3D strFile.substr(2,2) + "/" + strFile.substr(4,2) + "/" + =
+strFile.substr(6,2) + "/" + strFile.substr(8,2) + '.js';
+	document.write('<script type=3D"text/javascript" =
+language=3D"JavaScript" src=3D"http://a.as-us.falkag.net/dat/cjf/' + =
+strFile + '"></script>');
+}
+// --></SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_001_0037_01C36355.B8475B40--
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://media.fastclick.net/w/get.media?sid=7795&m=1&d=s&c=1&f=b&v=1.4
+
+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
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://media.winguides.com/ads/adcycle.cgi?gid=2&t=_top&id=1016169132&type=iframe
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- FASTCLICK.COM 468x60 v1.4 for winguides.com --><HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<SCRIPT language=3DJavascript><!--=20
+var i=3Dj=3Dp=3Dt=3Du=3Dx=3Dz=3Ddc=3D'';var id=3Df=3D0;var =
+f=3DMath.floor(Math.random()*7777);
+id=3D7795; dc=3Ddocument;u=3D'ht'+'tp://media.fastclick.net/w'; =
+x=3D'/get.media?t=3Ds';
+z=3D' width=3D468 height=3D60 border=3D0 ';t=3Dz+'marginheight=3D0 =
+marginwidth=3D';
+i=3Du+x+'&sid=3D'+id+'&m=3D1&f=3Db&v=3D1.4&c=3D'+f+'&r=3D'+escape(dc.refe=
+rrer);
+u=3D'<a  hr'+'ef=3D"'+u+'/click.here?sid=3D'+id+'&m=3D1&c=3D'+f+'"  =
+target=3D"_top">';
+dc.writeln('<ifr'+'ame src=3D"'+i+'&d=3Df"'+t+'0 hspace=3D0 vspace=3D0 =
+frameborder=3D0 scrolling=3Dno>');
+if(navigator.appName.indexOf('Mic')<=3D0){dc.writeln(u+'<img =
+src=3D"'+i+'&d=3Dn"'+z+'></a>');}
+dc.writeln('</iframe>'); // --></SCRIPT>
+<NOSCRIPT>
+<META content=3D"MSHTML 6.00.2800.1170" name=3DGENERATOR></HEAD>
+<BODY><A =
+href=3D"http://media.fastclick.net/w/click.here?sid=3D7795&amp;m=3D1&amp;=
+c=3D1"=20
+target=3D_top><IMG height=3D60=20
+src=3D"http://media.fastclick.net/w/get.media?sid=3D7795&amp;m=3D1&amp;d=3D=
+s&amp;c=3D1&amp;f=3Db&amp;v=3D1.4"=20
+width=3D468 border=3D1></A></NOSCRIPT> <!-- FASTCLICK.COM 468x60 v1.4 =
+for winguides.com --></BODY></HTML>
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.winguides.com/js/fcpopup.js
+
+<!-- FASTCLICK.COM POP-UNDER CODE v1.7e for winguides.com -->=0A=
+var doc=3Ddocument;  var url=3Descape(doc.location.href); var =
+date_ob=3Dnew Date();=0A=
+doc.cookie=3D'h2=3Do; path=3D/;';var bust=3Ddate_ob.getSeconds();=0A=
+if(doc.cookie.indexOf('e=3Dllo') <=3D 0 && doc.cookie.indexOf('2=3Do') > =
+0){=0A=
+doc.write('<scr'+'ipt language=3D"javascript" =
+src=3D"http://media.fastclick.net');=0A=
+doc.write('/w/pop.cgi?sid=3D7795&m=3D2&v=3D1.7e&u=3D'+url+'&c=3D'+bust+'"=
+></scr'+'ipt>');=0A=
+date_ob.setTime(date_ob.getTime()+43200000);=0A=
+doc.cookie=3D'he=3Dllo; path=3D/; expires=3D'+ date_ob.toGMTString();} =
+// -->=0A=
+<!-- FASTCLICK.COM POP-UNDER CODE v1.7e for winguides.com -->=0A=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+google_ad_url =3D '';=0A=
+google_random =3D (new Date()).getTime();=0A=
+google_org_error_handler =3D window.onerror;=0A=
+=0A=
+function google_write_tracker(tracker_event) {=0A=
+  var img_url =3D window.google_ad_url.replace(/pagead\/ads/, =
+'pagead/imp.gif');=0A=
+  var img_tag =3D '<i' + 'mg height=3D1 width=3D1 border=3D0 ' +=0A=
+                'src=3D' + img_url +=0A=
+                '&event=3D' + tracker_event +=0A=
+                ' />';=0A=
+  document.write(img_tag);=0A=
+}=0A=
+=0A=
+function google_append_url(param, value) {=0A=
+  if (value) {=0A=
+    window.google_ad_url +=3D '&' + param + '=3D' + value;=0A=
+  }=0A=
+}=0A=
+=0A=
+function google_append_url_esc(param, value) {=0A=
+  if (value) {=0A=
+    google_append_url(param, escape(value));=0A=
+  }=0A=
+}=0A=
+=0A=
+function google_append_color(param, value) {=0A=
+  if (value && typeof(value) =3D=3D 'object') {=0A=
+    value =3D value[window.google_random % value.length];=0A=
+  }=0A=
+  google_append_url('color_' + param, value);=0A=
+}=0A=
+=0A=
+function google_show_ad() {=0A=
+  var w =3D window;=0A=
+  w.onerror =3D w.google_org_error_handler;=0A=
+  w.google_ad_url =3D 'http://pagead2.googlesyndication.com/pagead/ads?' =
++=0A=
+                    'client=3Dca-' + =
+escape(w.google_ad_client.toLowerCase()) +=0A=
+                    '&random=3D' + w.google_random +=0A=
+                    '&hl=3D' + w.google_language;=0A=
+=0A=
+  google_append_url_esc('hints', w.google_hints);=0A=
+  google_append_url('adsafe', w.google_safe);=0A=
+  google_append_url('oe', w.google_encoding);=0A=
+  google_append_url_esc('alternate_ad_url', w.google_alternate_ad_url);=0A=
+=0A=
+  if (w.google_ad_format) {=0A=
+    google_append_url_esc('format', w.google_ad_format.toLowerCase());=0A=
+  }=0A=
+=0A=
+  google_append_url('num_ads', w.google_max_num_ads);=0A=
+  google_append_url('output', w.google_ad_output);=0A=
+  google_append_url('adtest', w.google_adtest);=0A=
+  google_append_url_esc('url', w.google_page_url);=0A=
+  google_append_color('bg', w.google_color_bg);=0A=
+  google_append_color('text', w.google_color_text);=0A=
+  google_append_color('link', w.google_color_link);=0A=
+  google_append_color('url', w.google_color_url);=0A=
+  google_append_color('border', w.google_color_border);=0A=
+  google_append_url_esc('contents', w.google_contents);=0A=
+=0A=
+  w.google_ad_url =3D w.google_ad_url.substring(0, 1000);=0A=
+  w.google_ad_url =3D w.google_ad_url.replace(/%\w?$/, '');=0A=
+=0A=
+  if (google_ad_output =3D=3D 'js' && w.google_ad_request_done) {=0A=
+    document.write('<scr' + 'ipt language=3DJavaScript1.1' +=0A=
+                   ' src=3D' + google_ad_url +=0A=
+                   '></scr' + 'ipt>');=0A=
+  } else if (google_ad_output =3D=3D 'html') {=0A=
+    if (w.name =3D=3D 'google_ads_frame') {=0A=
+      google_write_tracker('reboundredirect');=0A=
+    } else {=0A=
+      document.write('<ifr' + 'ame' +=0A=
+                     ' name=3Dgoogle_ads_frame' +=0A=
+                     ' width=3D' + w.google_ad_width +=0A=
+                     ' height=3D' + w.google_ad_height +=0A=
+                     ' frameborder=3D' + w.google_ad_frameborder +=0A=
+                     ' src=3D' + w.google_ad_url +=0A=
+                     ' marginwidth=3D0' +=0A=
+                     ' marginheight=3D0' +=0A=
+                     ' vspace=3D0' +=0A=
+                     ' hspace=3D0' +=0A=
+                     ' allowtransparency=3Dtrue' +=0A=
+                     ' scrolling=3Dno>');=0A=
+      google_write_tracker('noiframe');=0A=
+      document.write('</ifr' + 'ame>');=0A=
+    }=0A=
+  }=0A=
+=0A=
+  w.google_ad_frameborder =3D null;=0A=
+  w.google_ad_format =3D null;=0A=
+  w.google_page_url =3D null;=0A=
+  w.google_language =3D null;=0A=
+  w.google_hints =3D null;=0A=
+  w.google_safe =3D null;=0A=
+  w.google_encoding =3D null;=0A=
+  w.google_ad_output =3D null;=0A=
+  w.google_max_num_ads =3D null;=0A=
+  w.google_contents =3D null;=0A=
+  w.google_alternate_ad_url =3D null;=0A=
+  w.google_color_bg =3D null;=0A=
+  w.google_color_text =3D null;=0A=
+  w.google_color_link =3D null;=0A=
+  w.google_color_url =3D null;=0A=
+  w.google_color_border =3D null;=0A=
+  w.google_adtest =3D null;=0A=
+}=0A=
+=0A=
+function google_error_handler(message, url, line) {=0A=
+  google_show_ad();=0A=
+  return true;=0A=
+}=0A=
+=0A=
+window.onerror =3D google_error_handler;=0A=
+=0A=
+if (window.google_ad_frameborder =3D=3D null) {=0A=
+  google_ad_frameborder =3D 0;=0A=
+}=0A=
+=0A=
+if (window.google_ad_output =3D=3D null) {=0A=
+  google_ad_output =3D 'html';=0A=
+}=0A=
+=0A=
+if (window.google_ad_format =3D=3D null && window.google_ad_output =
+=3D=3D 'html') {=0A=
+  google_ad_format =3D google_ad_width + 'x' + google_ad_height;=0A=
+}=0A=
+=0A=
+if (window.google_language =3D=3D null) {=0A=
+  google_language =3D 'en';=0A=
+}=0A=
+=0A=
+if (window.google_page_url =3D=3D null) {=0A=
+  google_page_url =3D document.referrer;=0A=
+  if (window.top.location =3D=3D document.location) {=0A=
+    google_page_url =3D document.location;=0A=
+  }=0A=
+}=0A=
+google_show_ad();=0A=
+
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.winguides.com/js/menu.js
+
+/**************=0A=
+Copyright (c) 2001 Thomas Brattli (www.dhtmlcentral.com)=0A=
+eXperience DHTML coolMenus - Get it at  www.dhtmlcentral.com=0A=
+Version 3.02=0A=
+This script can be used freely as long as all copyright messages are=0A=
+intact. =0A=
+**************/=0A=
+=0A=
+function makePageCoords(win,fr){=0A=
+	if(!win) win=3Dwindow=0A=
+	this.x=3D0;this.x2=3D(bw.ns4 || =
+bw.ns6)?win.innerWidth-1:win.document.body.offsetWidth;=0A=
+	if(!fr&&bw.ie) this.x2-=3D20; else if(!fr&&bw.ns4) this.x2-=3D4; else =
+if(bw.ns6) this.x2+=3D1=0A=
+	this.y=3D0;this.y2=3D(bw.ns4 || =
+bw.ns6)?win.innerHeight:win.document.body.offsetHeight;=0A=
+	if(bw.ns4&&!win.rows) this.x2+=3D5; if(!fr&&bw.ie) this.y2-=3D4; else =
+if(bw.ns4&&fr) this.y2+=3D4=0A=
+	this.y2orig=3Dthis.y2; this.x50=3Dthis.x2/2; this.y50=3Dthis.y2/2; =
+return this;=0A=
+}=0A=
+=0A=
+function debug(txt,ev){if(mDebugging=3D=3D2) self.status=3Dtxt; else =
+alert(txt); if(ev) eval(ev); return false}=0A=
+=0A=
+function cm_checkScrolled(obj){=0A=
+	if(bw.ns4 || bw.ns6) obj.scrolledY=3Dobj.win.pageYOffset=0A=
+	else obj.scrolledY=3Dobj.win.document.body.scrollTop=0A=
+	if(obj.scrolledY!=3Dobj.lastScrolled){=0A=
+		if(!obj.useframes){=0A=
+			for(i=3D0;i<obj.l[0].num;i++){var sobj=3Dobj.l[0].o[i].oBorder; =
+sobj.moveY(sobj.y+(obj.scrolledY-obj.lastScrolled))}=0A=
+			if(obj.usebar) =
+obj.oBar.moveY(obj.oBar.y+(obj.scrolledY-obj.lastScrolled))=0A=
+		}=0A=
+		obj.lastScrolled=3Dobj.scrolledY; page.y=3Dobj.scrolledY; =
+page.y2=3Dpage.y2orig+obj.scrolledY=0A=
+		if(!obj.useframes || bw.ie){ clearTimeout(obj.tim); obj.isover=3D0; =
+obj.hideSubs(1,0)}=0A=
+	}if((bw.ns4 || bw.ns6) && !obj.useframes) =
+setTimeout("cm_checkScrolled("+obj.name+")",200)=0A=
+}=0A=
+=0A=
+function cm_checkp(num,w,check,istop,ds){=0A=
+	if(num){ var p=3Distop?toppage:page=0A=
+		if(num.toString().indexOf("%")!=3D-1){if(w || (check && this.rows)) =
+num=3D(p.x2*parseFloat(num)/100)=0A=
+		else num=3D(p.y2*parseFloat(num)/100)=0A=
+		}else num=3Deval(num)=0A=
+	}else num=3D0; return num=0A=
+}=0A=
+=0A=
+function cm_makeObj(obj,name,level,win,nest,o){=0A=
+	if(o&&(bw.ns4||bw.ns6)) this.evnt=3Do=0A=
+	else =
+this.evnt=3Dbw.dom?win.document.getElementById(obj):bw.ie4?win.document.a=
+ll[obj]:bw.ns4?nest?win.document[nest].document[obj]:win.document[obj]:0;=0A=
+	if(!this.evnt) return debug('There seems to be an error with this =
+layer:\nFrame: '+win+'\nLayer: '+nest + "." + obj)=0A=
+	this.css=3Dbw.dom||bw.ie4?this.evnt.style:bw.ns4?this.evnt:0;	=
+this.ref=3Dbw.dom || bw.ie4?win.document:bw.ns4?this.css.document:0;=0A=
+	this.hideIt=3Dcm_hideIt; this.showIt=3Dcm_showIt; =
+this.writeIt=3Dcm_writeIt; this.setactive=3Dcm_setactive; =
+this.addEvents=3Dcm_addEvents; =0A=
+	this.moveIt=3Dcm_moveIt; this.clipTo=3Dcm_clipTo; if(name) =
+this.parent=3Dname; this.moveY=3Dcm_moveY; this.l=3Dlevel; =
+this.clipOut=3Dcm_clipOut; =0A=
+	this.filterIt=3Dcm_filterIt; this.obj =3D obj + "Object"; 	=
+eval(this.obj + "=3Dthis"); this.tim=3D10; this.clipy=3D0; return this=0A=
+}=0A=
+function cm_writeIt(text){if(!this.img1){if(bw.ns4){this.ref.write(text);=0A=
+this.ref.close()}else this.evnt.innerHTML=3Dtext}}; function =
+cm_moveY(y){this.y=3Dy; this.css.top=3Dy}=0A=
+function cm_moveIt(x,y){this.x=3Dx; this.y=3Dy; =
+this.css.left=3Dthis.x;this.css.top=3Dthis.y}=0A=
+function cm_showIt(){this.css.visibility=3D"visible"; this.vis=3D1}; =
+function cm_hideIt(){this.css.visibility=3D"hidden"; this.vis=3D0}=0A=
+function cm_clipOut(px,w,ystop,tim,name){=0A=
+	if(!this.vis) return; if(this.clipy<ystop-px){this.clipy+=3Dpx; =
+this.clipTo(0,w,this.clipy,0,1)=0A=
+		=
+this.tim=3DsetTimeout(this.obj+".clipOut("+px+","+w+","+ystop+","+tim+",'=
+"+name+"')",tim)=0A=
+	}else{if(bw.ns6){this.hideIt();}; this.clipTo(0,w,ystop,0,1); =
+if(bw.ns6){this.showIt()}}=0A=
+}=0A=
+function cm_filterIt(f){if(this.evnt.filters[0]) =
+this.evnt.filters[0].Stop(); else this.css.filter=3Df; =
+this.evnt.filters[0].Apply(); this.showIt(); =
+this.evnt.filters[0].Play();}=0A=
+function cm_setactive(on,name,frmmouse){=0A=
+	if(!name) name=3Dthis.name; var tobj=3Dthis.parent.m[name]=0A=
+	if(tobj.img){if(tobj.img2){if(on) =
+this.ref.images[tobj.img].src=3Dtobj.img2; else =
+this.ref.images[tobj.img].src=3Dtobj.img1}=0A=
+	}else{=0A=
+		if(on){var color=3Dtobj.c2; var fcolor=3Dtobj.c4; var =
+re=3Dtobj.c3}else{var color=3Dtobj.c1; var fcolor=3Dtobj.c3; var =
+re=3Dtobj.c4}=0A=
+		if(color){if(bw.dom || bw.ie4) this.css.backgroundColor=3Dcolor; else =
+if(bw.ns4) if(color=3D=3D"transparent") color=3Dnull; =
+this.css.bgColor=3Dcolor}=0A=
+		if(fcolor && !bw.ns4){if(bw.ie4) this.evnt.style.color=3Dfcolor; else =
+if(this.evnt.childNodes[0]) this.evnt.style.color=3Dfcolor=0A=
+		}else if(fcolor&&frmmouse){t=3Dthis.parent.m[name].text; =
+t=3Dt.replace(re,fcolor); this.writeIt(t); if(on) =
+this.addEvents(name,this.parent.name,tobj.lnk,this.parent.useclick)}=0A=
+		=
+if(tobj.l=3D=3D0&&bw.ns6){this.parent.l[0].o[tobj.num].oBorder.hideIt(); =
+this.parent.l[0].o[tobj.num].oBorder.showIt();} //Stupid fix for =
+netscape 6....=0A=
+	}=0A=
+}=0A=
+function =
+cm_clipTo(t,r,b,l,w){if(bw.ns4){this.css.clip.top=3Dt;this.css.clip.right=
+=3Dr; this.css.clip.bottom=3Db;this.css.clip.left=3Dl=0A=
+}else{this.css.clip=3D"rect("+t+","+r+","+b+","+l+")"; =
+if(w){this.css.width=3Dr; this.css.height=3Db}}; this.width=3Dr; =
+this.height=3Db}=0A=
+function cm_addEvents(n,name,url,useclick){=0A=
+	this.evnt.onmouseover=3Dnew Function(name+".mover('"+n+"')"); =0A=
+	this.evnt.onmouseout=3Dnew Function(name+".mmout('"+n+"')")=0A=
+	if(!url && useclick) ev=3Dnew Function(name+".mover('"+n+"',1)")=0A=
+	else ev=3Dnew Function(name+".go('"+n+"')")=0A=
+	if(bw.ns4){this.ref.captureEvents(Event.MOUSEDOWN); =
+this.ref.onmousedown=3Dev}=0A=
+	else this.evnt.onclick=3Dev=0A=
+}=0A=
+=0A=
+function =
+cm_makeMenu(name,parent,text,link,target,width,height,img1,img2,bgcolorof=
+f,bgcoloron,textcolor,hovercolor,onclick,onmouseover,onmouseout){=0A=
+	this.m[name]=3Dnew Object(); var obj=3Dthis.m[name]; obj.name=3Dname;	=
+obj.subs=3Dnew Array(); obj.parent=3Dparent; var tt=0A=
+	obj.lnk=3D(link=3D=3D0||link=3D=3D'')?"":link; obj.target=3Dtarget=0A=
+	if(parent!=3D"" && =
+parent){this.m[parent].subs[this.m[parent].subs.length]=3Dname; =
+l=3Dthis.m[parent].l+1} else l=3D0=0A=
+	obj.l=3Dl; =
+prop1=3Dl<this.level.length?this.level[l]:this.level[this.level.length-1]=
+; prop2=3Dthis.level[0]=0A=
+	if(this.l.length<=3Dl){=0A=
+		this.l[l]=3Dnew Object(); this.l[l].num=3D0; if(l=3D=3D0) =
+this.l[l].names=3Dnew Array()=0A=
+		this.l[l].clip=3Dprop1["clip"]||prop2["clip"]||0; =
+this.l[l].clippx=3Dprop1["clippx"]||prop2["clippx"]||0=0A=
+		this.l[l].cliptim=3Dprop1["cliptim"]||prop2["cliptim"]||0; =
+this.l[l].filter=3Dprop1["filter"]||prop2["filter"]||0=0A=
+		this.l[l].border=3Dprop1["border"]||prop2["border"]; =
+this.l[l].maxnum=3D0=0A=
+		this.l[l].bordercolor=3Dprop1["bordercolor"]||prop2["bordercolor"];=0A=
+		s=3Dprop1["align"]||prop2["align"]; if(s=3D=3D"left") s=3D1; else =
+if(s=3D=3D"right") s=3D0; =0A=
+		else if(s=3D=3D"top") s=3D3; else if(s=3D=3D"bottom") s=3D2; =
+this.l[l].align=3Ds; this.aobj[l]=3D-1;=0A=
+		this.l[l].height=3Dprop1["height"]||prop2["height"]; =
+this.l[l].width=3Dprop1["width"]||prop2["width"];=0A=
+		this.l[l].style=3Dprop1["style"]||prop2["style"]; =
+this.l[l].tc=3Dtextcolor||prop1.textcolor||prop2.textcolor; =0A=
+		=
+this.l[l].offsetX=3DString(prop1["offsetX"])!=3D"undefined"?prop1["offset=
+X"]:prop2["offsetX"]=0A=
+		=
+this.l[l].offsetY=3DString(prop1["offsetY"])!=3D"undefined"?prop1["offset=
+Y"]:prop2["offsetY"]=0A=
+	}if(l=3D=3D0) this.l[l].names[this.l[l].names.length]=3Dname=0A=
+	if(parent!=3D"" && parent){obj.num=3Dthis.m[parent].subs.length-1}else =
+obj.num=3Dthis.l[l].num=0A=
+	this.l[l].num++; =
+prop=3Dl<this.level.length?this.level[l]:this.level[this.level.length-1]=0A=
+	=
+obj.width=3Dthis.checkp(width?width:prop1.width?prop1.width:prop2.width,1=
+,0,1);=0A=
+	=
+obj.height=3Dthis.checkp(height?height:prop1.height?prop1.height:prop2.he=
+ight,0,0,1);=0A=
+	if(parent!=3D"" && =
+parent){if(this.m[parent].subs.length>this.l[l].maxnum) =
+this.l[l].maxnum=3Dthis.m[parent].subs.length =0A=
+		if(this.m[parent].totheight=3D=3D0) =
+this.m[parent].totheight=3Dthis.l[l].border=0A=
+		this.m[parent].totheight+=3Dobj.height+ this.l[l].border=0A=
+		if(this.m[parent].maxwidth<obj.width) =
+this.m[parent].maxwidth=3Dobj.width+this.l[l].border*2=0A=
+	}else{this.l[l].maxnum=3Dthis.l[l].names.length; =
+this.totwidth+=3Dobj.width; this.totheight+=3Dobj.height=0A=
+		this.maxwidth=3Dthis.maxwidth>obj.width?this.maxwidth:obj.width; =
+this.maxheight=3Dthis.maxheight>obj.height?this.maxwidth:obj.height=0A=
+	}if(img1) text=3D'<img src=3D"'+img1+'" border=3D"0" =
+name=3D"imgCMenu'+name+'">'=0A=
+	else if(bw.ns4){text=3D'<font =
+size=3D"'+(prop1.NS4fontSize||prop2.NS4fontSize)+'" =
+face=3D"'+(prop1.NS4font||prop2.NS4font)+'" =
+color=3D"'+(textcolor||this.l[l].tc)+'">'+text+'</font>'}=0A=
+	if(bw.ns4&&this.useNS4links&&(l=3D=3D0||!this.useframes) =
+||(l=3D=3D0&&img1)){tt=3Dimg1&&l=3D=3D0?this.useclick?this.name+".mover('=
+"+name+"',1);":this.name+".go('"+name+"');":"";text=3D'<a href=3D"#" =
+onclick=3D"'+tt+'return false" class=3D"clNS4">'+text+'</a>'}=0A=
+	if(img1){obj.preimg1=3Dnew Image(); obj.preimg1.src=3Dimg1}; =
+if(img2){obj.preimg2=3Dnew Image(); obj.preimg2.src=3Dimg2}=0A=
+	if(img2) obj.img=3D"imgCMenu"+name; else obj.img=3D0; =
+obj.img1=3Dimg1||""; obj.img2=3Dimg2||""; obj.text=3Dtext; obj.subx=3D-1;=0A=
+	obj.c1=3Dbgcoloroff||prop1.bgcoloroff||prop2.bgcoloroff; =
+obj.c2=3Dbgcoloron||prop1.bgcoloron||prop2.bgcoloron;=0A=
+	obj.c3=3Dtextcolor||this.l[l].tc; =
+obj.c4=3Dhovercolor||prop1.hovercolor||prop2.hovercolor;  obj.suby=3D-1;=0A=
+	obj.mclick=3Donclick||""; obj.mover=3Donmouseover||""; =
+obj.mout=3Donmouseout||"";	obj.totheight=3D0; obj.maxwidth=3D0; =0A=
+}=0A=
+=0A=
+function cm_mout(name,cl){=0A=
+	if(!name&&cl&&!this.isover){this.isclicked=3D0; =
+this.hideSubs(1,0,0,0,1);  this.aobj[0]=3D-1; return}=0A=
+	if(!name) return; var l=3Dthis.m[name].l;=0A=
+	=
+if((this.m[name].subs.length=3D=3D0||!this.loaded)||(this.useclick&&!this=
+.isclicked)){if((this.aobj[l+1]=3D=3D-1||l>=3Dthis.l.length-1)&&this.aobj=
+[l]!=3D-1){this.aobj[l].setactive(0,0,1); this.aobj[l]=3D-1;}}=0A=
+	if(this.m[name].mout!=3D"") eval(this.m[name].mout)=0A=
+	if(this.useclick){this.isover=3D0; return}; clearTimeout(this.tim); =0A=
+	if(!(!bw.ie&&this.useframes&&l=3D=3D0&&this.aobj1)){ this.isover=3D0; =
+this.aobj1=3D0; =
+this.tim=3DsetTimeout(this.name+".hideSubs(1,0,0,0,1)",this.wait)} =0A=
+}=0A=
+=0A=
+function cm_mover(name,cl){=0A=
+	clearTimeout(this.tim); this.isover=3D1; var l=3Dthis.m[name].l;=0A=
+	if(this.aobj[l].name=3D=3Dname){=0A=
+		if(this.aobj[l+1]!=3D-1 && l<this.l.length-1){=0A=
+			this.aobj[l+1].setactive(0,0,1); this.aobj[l+1]=3D-1; =
+this.hideSubs(l+2,1); return=0A=
+		}else if((!this.useclick)||(this.useclick&&this.isclicked)) return=0A=
+	}if(this.m[name].mover!=3D"") eval(this.m[name].mover)=0A=
+	var num=3Dthis.m[name].num; var obj=3Dthis.l[l].o[num]=0A=
+	if(this.aobj[l].name!=3Dname){if(this.aobj[l]!=3D-1) =
+this.aobj[l].setactive(0,0,1); this.aobj[l]=3Dobj; =
+this.aobj[l].name=3Dname; obj.setactive(1,0,1)}=0A=
+	if(l=3D=3D1)this.aobj1=3D1; if(l=3D=3D0 && cl && this.useclick) =
+this.isclicked=3D1; =0A=
+	if(!this.isclicked&&this.useclick) return; if(!this.loaded) return;=0A=
+	this.showSubs(name,l,num,cl)=0A=
+}=0A=
+=0A=
+function cm_hideSubs(l,system,cl,sys2,hc){=0A=
+	if(this.isover && !system) return=0A=
+	if(l=3D=3D1 && =
+this.aobj[0]!=3D-1&&!sys2){this.aobj[0].setactive(0,0,1);this.aobj[0]=3D-=
+1}=0A=
+	if(!this.loaded) return; if(cl=3D=3D1) return=0A=
+	for(i=3Dl;i<this.l.length;i++){if(this.l[i].oBorder.vis=3D=3D0) break; =
+this.l[i].oBorder.hideIt(); this.aobj[i]=3D-1;}=0A=
+	if(hc&&this.hcode){eval(this.hcode); this.hcode=3D""}=0A=
+}=0A=
+=0A=
+function cm_getCoords(name,l,num,topalign,align,ln,border,cn,lev1b){=0A=
+	if(cn=3D=3D5){ this.m[name].subx=3D0; this.m[name].suby=3D0; return =
+}//Just in case infinitive loops=0A=
+	if(l=3D=3D1) var pobj=3Dthis.l[l-1].o[num].oBorder=0A=
+	else var pobj=3Dthis.l[l-1].oBorder=0A=
+	var x=3Dpobj.x; var y=3Dpobj.y;=0A=
+	if(l!=3D1){y+=3Dthis.l[l-1].o[num].y}=0A=
+	pborder=3Dthis.l[l-1].border; =0A=
+	lx=3Dx+pobj.width; rx=3Dx-this.m[name].maxwidth- (this.l[l-1].offsetX*2)=0A=
+	if(align=3D=3D0){if(l=3D=3D1){y+=3Dborder} if(l=3D=3D1&&this.useframes) =
+x=3D0; else x=3Dlx=0A=
+	}else if(align=3D=3D1){x=3Drx; if(l=3D=3D1){if(this.useframes) =
+x=3Dpage.x2 - this.m[name].maxwidth; y+=3Dborder}}=0A=
+	if((align=3D=3D2||topalign=3D=3D2)&&lev1b!=3D3){=0A=
+		if(l!=3D1 && (align!=3D1&&align!=3D0)){if(topalign=3D=3D1) x=3Drx; =
+else x=3Dlx}=0A=
+		if(l=3D=3D1) if(this.useframes) y=3D0; else =
+y+=3Dthis.m[name].height+border+pborder;=0A=
+	}if((align=3D=3D3||topalign=3D=3D3)&&lev1b!=3D2){=0A=
+		if(l!=3D1&&align!=3D1&&align!=3D0){if(topalign=3D=3D1) x=3Drx; else =
+x=3Dlx}=0A=
+		if(this.useframes&&l=3D=3D1) y=3Dpage.y2 - this.m[name].totheight - =
+this.l[l-1].offsetY*2=0A=
+		else y-=3Dthis.m[name].totheight - this.l[l].offsetY*2; =
+if(l!=3D1||lev1b=3D=3D3) y+=3Dthis.m[name].height=0A=
+	}this.m[name].scrollY=3Dthis.lastScrolled; =
+this.m[name].subx=3Dx+this.l[l-1].offsetX; =0A=
+	this.m[name].suby=3Dy+this.l[l-1].offsetY; =
+if(this.useframes&&l=3D=3D1&&align!=3D3) =
+this.m[name].suby+=3Dthis.lastScrolled=0A=
+	if(this.pagecheck&&(l!=3D1||!this.useframes)) =
+this.checkPage(name,l,num,topalign,align,ln,border,cn)=0A=
+}=0A=
+=0A=
+function cm_checkPage(name,l,num,topalign,align,ln,border,cn){=0A=
+	cn++; =0A=
+	if(this.m[name].subx+this.m[name].maxwidth>page.x2){=0A=
+		if(align!=3D1){if(align=3D=3D3&&topalign!=3D0) topalign=3D3; =
+align=3D1; this.getCoords(name,l,num,topalign,align,ln,border,cn)}=0A=
+	}else if(this.m[name].subx<page.x){=0A=
+		if(align!=3D0){if(align=3D=3D3) topalign=3D3; align=3D0; =
+this.getCoords(name,l,num,topalign,align,ln,border,cn)}=0A=
+	}else if((this.m[name].suby+this.m[name].totheight)>page.y2){=0A=
+		if(l=3D=3D1){topalign=3D3; =
+this.getCoords(name,l,num,topalign,align,ln,border,cn,3)}=0A=
+		else if(align!=3D3){ align=3D3; =
+this.getCoords(name,l,num,topalign,align,ln,border,cn)}=0A=
+	}else if(this.m[name].suby<page.y){=0A=
+		if(l=3D=3D1){topalign=3D2; =
+this.getCoords(name,l,num,topalign,align,ln,border,cn,2)}=0A=
+		else if(align!=3D2){align=3D2; =
+this.getCoords(name,l,num,topalign,align,ln,border,cn)}=0A=
+	}=0A=
+}=0A=
+=0A=
+function cm_showSubs(name,l,num,cl){=0A=
+	l+=3D1; if(l>=3Dthis.l.length) return; ln=3Dthis.m[name].subs.length=0A=
+	if(ln=3D=3D0){this.hideSubs(l,1,0,1); return}=0A=
+	else this.hideSubs(l+1,1); var border=3Dthis.l[l].border; =
+this.aobj[l]=3D-1=0A=
+	if(this.useframes&&(bw.ns4||bw.ns6)) cm_checkScrolled(this)=0A=
+	if((this.m[name].subx=3D=3D-1 || this.m[name].suby=3D=3D-1) || =
+this.m[name].scrollY!=3Dthis.lastScrolled || this.isresized){=0A=
+		var topalign=3Dthis.l[0].align; var align=3Dthis.l[l-1].align; =0A=
+		this.getCoords(name,l,num,topalign,align,ln,border,0)=0A=
+	}var x=3Dthis.m[name].subx; var y=3Dthis.m[name].suby;=0A=
+	var bobj=3Dthis.l[l].oBorder; bobj.hideIt(); =0A=
+	if(this.l[l-1].clip&&!(this.l[l-1].filter&&bw.filter)){=0A=
+		clearTimeout(bobj.tim); bobj.clipy=3D0; =
+bobj.clipTo(0,this.m[name].maxwidth,0,0);=0A=
+	}else bobj.clipTo(0,this.m[name].maxwidth,this.m[name].totheight,0,1)=0A=
+	bobj.moveIt(x,y); var yy=3Dborder=0A=
+	for(i=3D0;i<this.l[l].maxnum;i++){=0A=
+		var obj=3Dthis.l[l].o[i]=0A=
+		if(i<ln){=0A=
+			var n=3Dthis.m[name].subs[i]; obj.aname=3Dn; =
+if(!bw.ns4||!this.NS4hover) obj.writeIt(this.m[n].text)=0A=
+			obj.addEvents(n,this.name,this.m[n].lnk,this.useclick); var =
+w=3Dthis.m[n].width; var h=3Dthis.m[n].height=0A=
+			if(obj.y!=3Dyy) obj.moveY(yy); yy+=3Dh+border; if(!obj.img) =
+obj.setactive(0,n,1); =0A=
+			if(obj.width!=3Dw||obj.height!=3Dh) obj.clipTo(0,w,h,0,1); =
+obj.css.visibility=3D"inherit"=0A=
+		}else obj.hideIt()=0A=
+	}if(this.l[l-1].filter&&bw.filter) bobj.filterIt(this.l[l-1].filter)=0A=
+	else if(this.l[l-1].clip){bobj.showIt(); =
+bobj.clipOut(this.l[l-1].clippx,this.m[name].maxwidth,this.m[name].tothei=
+ght,this.l[l-1].cliptim,name);}=0A=
+	else bobj.showIt(); =0A=
+	if(!bw.ns4&&this.checkselect){ //CHECKING FOR SELECT BOXES=0A=
+		for(i=3D0;i<this.sel.length;i++){=0A=
+			selx=3D0; sely=3D0; var selp;=0A=
+			if(this.sel[i].offsetParent){selp=3Dthis.sel[i]; =
+while(selp.offsetParent){selp=3Dselp.offsetParent; =
+selx+=3Dselp.offsetLeft; sely+=3Dselp.offsetTop;}}=0A=
+			selx+=3Dthis.sel[i].offsetLeft; sely+=3Dthis.sel[i].offsetTop=0A=
+			selw=3Dthis.sel[i].offsetWidth; selh=3Dthis.sel[i].offsetHeight=0A=
+			if(((selx+selw)>this.m[name].subx && =
+selx<(this.m[name].subx+this.m[name].maxwidth))=0A=
+			&&((sely+selh)>this.m[name].suby && =
+sely<(this.m[name].suby+this.m[name].totheight))){=0A=
+				if(this.sel[i].style.visibility!=3D"hidden"){this.sel[i].level=3Dl; =
+this.sel[i].style.visibility=3D"hidden"; =
+this.hcode+=3Dthis.name+".sel["+i+"].style.visibility=3D'visible';"}=0A=
+			}else if(l<=3Dthis.sel[i].level) =
+this.sel[i].style.visibility=3D"visible"=0A=
+		}=0A=
+	}else =
+if(bw.ns4&&this.hideForm){eval(this.hideForm+".visibility=3D'hide'"); =
+this.hcode=3Dthis.hideForm+".visibility=3D'show'"}=0A=
+}=0A=
+=0A=
+function cm_makeTop(rr){=0A=
+	var m,rows,border,x,y,mpa=0A=
+	m=3Dthis.menuplacement; rows=3Dthis.rows; =
+this.pxbetween=3Dthis.checkp(this.pxbetween,0,1,1)=0A=
+	=
+border=3Dthis.l[0].border;y=3Dthis.checkp(this.fromtop,0,0,1)+border;x=3D=
+this.checkp(this.fromleft,0,0,1)+border=0A=
+	if(m=3D=3D"bottomcenter"||m=3D=3D"bottom"){=0A=
+		if(m=3D=3D"bottomcenter") =
+x=3Dtoppage.x2/2-(this.totwidth+border*this.l[0].num+this.pxbetween*(this=
+.l[0].num-1))/2=0A=
+		y=3Dtoppage.y2-this.maxheight-border=0A=
+	}else if(m=3D=3D"right") x=3Dtoppage.x2-this.maxwidth-border*2=0A=
+	else if(m=3D=3D"bottom") y=3Dtoppage.y2-this.maxheight-border*2=0A=
+	else if(m=3D=3D"center"){if(rows=3D=3D0) x=3Dtoppage.x2/2 -  =
+(this.maxwidth+border*2)/2; else x=3Dtoppage.x2/2 - (this.totwidth + =
+border*this.l[0].num +this.pxbetween*(this.l[0].num-1))/2}=0A=
+	else if(m.toString().indexOf(",")>-1) mpa=3D1=0A=
+	if(this.usebar){ var bx,by,bww,bh,oBb=0A=
+		oNS=3Dbw.ns6?this.oNS[this.l[0].maxnum]:0=0A=
+		this.oBar=3Dnew cm_makeObj('div'+this.name+'Bar',0,0,window,0,oNS)=0A=
+		if(this.barx=3D=3D"menu") =
+bx=3Dmpa&&rows?this.checkp(m[0],1,0,1)-border:x-border; else{ =
+bx=3Dthis.checkp(this.barx,1,0,1) }=0A=
+		if(this.bary=3D=3D"menu") =
+by=3Dmpa&&!rows?this.checkp(m[0],0,0,1)-border:y-border; else =
+by=3Dthis.checkp(this.bary,0,0,1);  this.oBar.moveIt(bx,by)=0A=
+		=
+if(this.barwidth=3D=3D"menu"){bww=3Drows?mpa?(this.checkp(m[m.length-1],1=
+,0,1)-bx)+this.m[this.l[0].names[this.l[0].num-1]].width+border:(this.tot=
+width +this.pxbetween*(this.l[0].num-1)):this.maxwidth; =0A=
+		bww+=3D!rows?border*2:0;}else bww=3Dthis.checkp(this.barwidth,1,0,1); =0A=
+		if(bw.ie&&rows&&this.barwidth=3D=3D"100%"&&this.useframes) =
+bww+=3DparseInt(self.document.body.leftMargin)*2=0A=
+		=
+if(this.barheight=3D=3D"menu"){bh=3D!rows?mpa?(this.checkp(m[m.length-1],=
+0,0,1)-by)+this.m[this.l[0].names[this.l[0].num-1]].height+border:(this.t=
+otheight + this.pxbetween*(this.l[0].num-1)):this.maxheight;=0A=
+		bh+=3Drows?this.l[0].border*2:0;} else =
+bh=3Dthis.checkp(this.barheight,0,0,1);=0A=
+		this.oBar.clipTo(0,bww,bh,0,1);=0A=
+		if(this.barinheritborder&&border){oBb=3Dnew =
+cm_makeObj('div'+this.name+'Barb',0,0,window,'div'+this.name+'Bar'); =0A=
+		oBb.moveIt(border,border); oBb.clipTo(0,bww-border*2,bh-border*2,0,1); =
+oBb=3Dnull;}=0A=
+	}this.l[0].o=3Dnew Array()=0A=
+	for(j=3D0;j<this.l[0].maxnum;j++){=0A=
+		this.l[0].o[j]=3Dnew =
+cm_makeObj('div'+this.name+'0_'+j,this,0,window,'div'+this.name+'0_'+j+'b=
+'); if(bw.ns6) oNS=3Dthis.oNS[j]; else oNS=3D0=0A=
+		this.l[0].o[j].oBorder=3Dnew =
+cm_makeObj('div'+this.name+'0_'+j+'b',0,0,window,0,oNS)=0A=
+		obj=3Dthis.l[0].o[j]; w=3Dthis.m[this.l[0].names[j]].width; =
+h=3Dthis.m[this.l[0].names[j]].height=0A=
+		=
+obj.addEvents(this.l[0].names[j],this.name,this.m[this.l[0].names[j]].lnk=
+,this.useclick); obj.clipTo(0,w,h,0,1)=0A=
+		if(mpa){if(rows=3D=3D1) x=3Dthis.checkp(m[j],0,1,1); else =
+y=3Dthis.checkp(m[j],0,0,1)}=0A=
+		obj.moveIt(border,border); =0A=
+		obj.setactive(0,this.l[0].names[j])=0A=
+		obj.oBorder.moveIt(x-border,y-border); =
+obj.oBorder.clipTo(0,w+border*2,h+border*2,0,1); obj.oBorder.showIt()=0A=
+		if(rows=3D=3D0) y+=3Dh+border+this.pxbetween=0A=
+		else x+=3Dw+border+this.pxbetween; obj.showIt()=0A=
+	}if(!rr){=0A=
+		if(this.useclick) coolFMouseup+=3Dthis.name+".mmout('',1);"; =
+if(!this.useframes&&!bw.ns4) this.refresh()=0A=
+		else if(!this.useframes&&bw.ns4){l=3D""; =
+if(onload){l=3DString(onload.toString()); l=3Dl.replace("function =
+onload(event)",""); l=3Dl.slice(25,l.length-2)} l+=3Dthis.name+ =
+".refresh();"; onload=3Dnew Function(l)}=0A=
+		if(this.resizecheck) setTimeout('window.onresize=3Dnew =
+Function("'+this.name+'.resized()")',500)=0A=
+		if(this.checkscroll){if(bw.ns4 || =
+bw.ns6){if(this.checkscroll!=3D2&&this.useframes!=3D1){setTimeout("cm_che=
+ckScrolled("+this.name+")",200)}}}=0A=
+		if(this.useframes&&!rr) this.checkFrame(0); else this.win=3Dwindow=0A=
+	}=0A=
+}=0A=
+=0A=
+function cm_refresh(ev){=0A=
+	var border,obj,oNS,oNS2=0A=
+	if(this.useframes) page=3Dnew makePageCoords(this.win,this.useframes); =
+else page=3Dtoppage=0A=
+	for(i=3D1;i<this.l.length;i++){=0A=
+		this.l[i].o=3Dnew Array();=0A=
+		border=3Dthis.l[i].border; defheight=3Dthis.checkp(this.l[i].height)=0A=
+		if(bw.ns4){oNS=3Dnew Layer(this.l[i].width,this.win); =
+oNS.zIndex=3D(500+i);  if(this.l[i].border) =
+oNS.bgColor=3Dthis.l[i].bordercolor;}=0A=
+		else if(bw.ns6){oNS=3Ddocument.createElement("DIV"); =
+oNS.setAttribute("style",this.ns6styleb[i]); =
+this.win.document.body.appendChild(oNS)}=0A=
+		this.l[i].oBorder=3Dnew =
+cm_makeObj('div'+this.name+i+"b",0,0,this.win,0,oNS)=0A=
+		for(j=3D0;j<this.l[i].maxnum;j++){=0A=
+			if(bw.ns4){oNS2=3Dnew Layer(this.l[i].width,oNS);}=0A=
+			else if(bw.ns6){oNS2=3Ddocument.createElement("DIV");	=
+oNS2.setAttribute("style",this.ns6style[i]); oNS.appendChild(oNS2)}=0A=
+			this.l[i].o[j]=3Dnew =
+cm_makeObj('div'+this.name+i+'_'+j,this,i,this.win,0,oNS2)=0A=
+			obj=3Dthis.l[i].o[j]; if(!obj.addEvents) return; =
+obj.moveIt(border,(border+defheight)*j + border)=0A=
+		}	=0A=
+	}this.loaded=3D1;=0A=
+	if(this.checkscroll&&bw.ie){this.win.document.body.onscroll=3Dnew =
+Function("cm_checkScrolled("+this.name+")"); cm_checkScrolled(this)}=0A=
+	if(this.useclick){this.win.document.onmouseup=3Dnew =
+Function(coolFMouseup); if(this.useframes) document.onmouseup=3Dnew =
+Function(coolFMouseup); }=0A=
+	if(!bw.ns4&&this.checkselect) =
+this.sel=3Dbw.ie4?this.win.document.all.tags("SELECT"):this.win.document.=
+getElementsByTagName("SELECT")=0A=
+}=0A=
+function =
+cm_NS6_createElement(st,inn){el=3Ddocument.createElement("DIV"); if(st) =
+el.setAttribute("style",st); if(inn) el.innerHTML=3Dinn; =
+document.body.appendChild(el); return el}=0A=
+=0A=
+function cm_construct(){=0A=
+	this.level=3Dnull; var str=3D""; var str2=3D""; var frstr=3D""; var =
+tempstr; num=3Dbw.ie?this.l.length:1;=0A=
+	for(i=3D0;i<num;i++){=0A=
+		if(i!=3D0) frstr+=3D'<div id=3D"div'+this.name+i+'b" =
+style=3D"'+this.ns6styleb[i]+'" class=3D"cl'+this.name+i+'b">\n'=0A=
+		for(j=3D0;j<this.l[i].maxnum;j++){=0A=
+			tempstr=3D'<div id=3D"div'+this.name+i+'_'+j+'" '; if(i!=3D0) =
+tempstr+=3D'style=3D"'+this.ns6style[i]+'"'=0A=
+			if(i=3D=3D0){n=3Dthis.l[0].names[j]; txt=3Dthis.m[n].text=0A=
+				if(!bw.ns6){=0A=
+					str+=3D'<div id=3D"div'+this.name+'0_'+j+'b" =
+class=3D"cl'+this.name+'b'+i+'">'=0A=
+					str+=3Dtempstr+' class=3D"cl'+this.name+i+'">'+txt+'</div>'; =
+str+=3D'</div>\n'=0A=
+				}else this.oNS[j]=3Dcm_NS6_createElement(this.ns6styleb[i],tempstr+' =
+class=3D"cl'+this.name+i+'">'+txt+'</div>')=0A=
+			}else frstr+=3Dtempstr+'"></div>\n'=0A=
+		}if(i!=3D0){frstr+=3D'</div>\n'}=0A=
+	}if(this.usebar){=0A=
+		if(this.barinheritborder) str2=3D'<div =
+id=3D"div'+this.name+'Barb"></div>'; =0A=
+		if(bw.ns6) =
+this.oNS[this.l[0].maxnum]=3Dcm_NS6_createElement(this.ns6styleb[this.ns6=
+styleb.length-1],str2)=0A=
+		else{str+=3D'<div id=3D"div'+this.name+'Bar">';str+=3Dstr2+'</div>\n'}=0A=
+	}if(!this.useframes&&bw.ie) str+=3Dfrstr; else this.frstr=3Dfrstr; =
+if(!bw.ns6) document.write(str)=0A=
+	this.makeTop();	if(this.useframes) window.onerror=3Dcm_check_error;=0A=
+}=0A=
+coolFrameError=3D0//Trapping external pages in frame error!=0A=
+function cm_check_error(e){e=3De.toLowerCase(); =
+if(e.indexOf("access")>-1||e.indexOf("permission")>-1){coolFrameError=3D1=
+; return true;}else return false}=0A=
+=0A=
+function cm_makeStyle(){=0A=
+	var str=3D"<style>\n"; var zindex=3D150;  var c,w,st,bg=0A=
+	this.ns6style=3Dnew Array(); this.ns6styleb=3Dnew Array()=0A=
+	for(i=3D0;i<this.l.length;i++){=0A=
+		if(i=3D=3D0){if(bw.ns4){w=3D"width:" +this.l[0].width+";"; =
+this.l[i].style=3D""} else w=3D""; =
+str+=3D'.cl'+this.name+i+'{position:absolute; '+w+' =
+background-color:transparent; =
+color:'+this.l[i].tc+';'+this.l[i].style+'; cursor:pointer; cursor:hand; =
+visibility:inherit; z-index:'+zindex+'}\n'}=0A=
+		else{st=3D'position:absolute; '+this.l[i].style+';  cursor:pointer; =
+cursor:hand; visibility:inherit; z-index:'+zindex; this.ns6style[i]=3Dst}=0A=
+		=
+bc=3Dthis.l[i].border?bw.ns4?'layer-background-color:'+this.l[i].borderco=
+lor:'; background-color:'+this.l[i].bordercolor:"";=0A=
+		if(!bw.ns4) bc+=3D"; overflow:hidden"=0A=
+		tempstr=3D'position:absolute; clip:rect(0,0,0,0); visibility:hidden; =
+'+bc+'; z-index:'+(zindex-50)=0A=
+		if(i=3D=3D0&&!bw.ns6) str+=3D'.cl'+this.name+'b'+i+'{'+tempstr+'}\n'; =0A=
+		else this.ns6styleb[i]=3Dtempstr; zindex+=3D100=0A=
+	}	=0A=
+	if(this.usebar){=0A=
+		bg=3Dthis.barinheritborder?this.l[0].bordercolor:this.barcolor=0A=
+		st=3D'z-index:80; position:absolute; background-color:'+bg+'; =
+layer-background-color:'+bg=0A=
+		if(!bw.ns6) str+=3D'#div'+this.name+'Bar{'+st+'}\n'; else =
+this.ns6styleb[this.ns6styleb.length]=3Dst=0A=
+		if(this.barinheritborder){str+=3D'#div'+this.name+'Barb{z-index:85; =
+position:absolute; background-color:'+this.barcolor+'; =
+layer-background-color:'+this.barcolor+'}\n'}=0A=
+	}=0A=
+	if(bw.ns4) str+=3D"A.clNS4{text-decoration:none; =
+padding:"+this.NS4padding+"}\n"; document.write(str+"\n</style>\n")=0A=
+}=0A=
+=0A=
+function cm_resized(){=0A=
+	page2=3Dnew makePageCoords(window,this.useframes); =0A=
+	if(page2.x2!=3Dtoppage.x2 || page2.y2!=3Dtoppage.y2){=0A=
+		if(!bw.ns4){=0A=
+			toppage=3Dnew makePageCoords(window,this.useframes); this.makeTop(1)=0A=
+			if(!this.useframes) page=3Dtoppage; this.isresized=3D1; =
+eval(this.resizecode)=0A=
+		}else{this.win.location.reload(); location.reload()}=0A=
+	}if(!bw.ns4&&this.useframes){page=3Dnew =
+makePageCoords(this.win,this.useframes)}=0A=
+}=0A=
+=0A=
+function cm_go(name){=0A=
+	obj=3Dthis.m[name]; url=3Dobj.lnk; target=3Dobj.target; fc=3Dobj.mclick=0A=
+	if(url){=0A=
+		if(this.useframes&&!coolFrameError) loc=3Dthis.win.location.href; else =
+loc=3Dlocation.href=0A=
+		if(fc) eval(fc); url=3Dthis.checkFolder(loc.toString(),url); =
+this.isover=3D0;=0A=
+		this.hideSubs(1,0,1); this.isclicked=3D0; this.aobj[0]=3D-1=0A=
+		if(String(target)=3D=3D"undefined" || target=3D=3D"" || target=3D=3D0 =
+|| target=3D=3D"_self"){=0A=
+			this.win.location.href=3Durl=0A=
+		}else if(target=3D=3D"_blank") window.open(url)=0A=
+		else if(target=3D=3D"_top" || target=3D=3D"window") =
+top.location.href=3Durl  =0A=
+		else if(top[target]) top[target].location.href=3Durl=0A=
+		else{fr=3DfindFrame(target); if(fr) fr.location.href=3Durl}=0A=
+	}else if(fc) eval(fc)=0A=
+}=0A=
+=0A=
+function cm_checkFolder(tmp,url){=0A=
+	if(url.indexOf("mailto:")>-1 || url.indexOf("/")=3D=3D0 || =
+url.indexOf("http://")=3D=3D0) return url=0A=
+	else if(this.useframes && bw.ie || bw.ns6) return url=0A=
+	var addr=3D''; var lvl=3D''; var off_cnt=3D0; var cnt=3D0;=0A=
+	if(tmp.indexOf('file:')>-1 || tmp.charAt(1)=3D=3D':') =
+addr=3Dthis.offlineUrl;=0A=
+	else if(tmp.indexOf('http:')>-1) addr=3Dthis.onlineUrl;=0A=
+	for(var i=3D0;i<addr.length;i++){if(addr.charAt(i)=3D=3D'\/') =
+off_cnt+=3D1}=0A=
+	for(var i=3D0;i<tmp.length;i++){if(tmp.charAt(i)=3D=3D'\/'){ cnt+=3D1; =
+if(cnt>off_cnt) lvl+=3D'../'; }}=0A=
+	return lvl + url=0A=
+}=0A=
+=0A=
+function cm_checkLoaded(ev,ns){=0A=
+	coolFName=3Deval(coolFName)=0A=
+	var ok=3D0=0A=
+	if(document.layers){ =0A=
+		if(ns){coolFName.refresh(); coolFName.nsload=3D1; ok=3D1; =
+coolFrameError=3D0=0A=
+		}else =
+if(ev.target.name=3D=3DcoolFName.frame&&!coolFName.nsload){coolFName.refr=
+esh(); ok=3D1; coolFrameError=3D0; routeEvent(ev)}=0A=
+	}else if(bw.ie){=0A=
+		if (coolFName.win.document.readyState =3D=3D "complete"){=0A=
+			=
+coolFName.win.document.body.insertAdjacentHTML("beforeEnd",coolFName.frst=
+r)=0A=
+			coolFName.win.document.body.onunload=3Dcm_unloaded; =
+coolFName.refresh(); ok=3D1; coolFrameError=3D0=0A=
+		}else setTimeout("cm_checkLoaded()",200)=0A=
+	}else if(bw.ns6){ =0A=
+		if(coolFName.win.document){=0A=
+			=
+if(coolFName.win.document.body){coolFName.win.addEventListener("unload", =
+cm_unloaded, true); coolFName.refresh(); ok=3D1; coolFrameError=3D0}=0A=
+			else setTimeout("cm_checkLoaded()",200)=0A=
+		}else setTimeout("cm_checkLoaded()",200)=0A=
+	}=0A=
+}=0A=
+function cm_unloaded(ev){coolFName=3Deval(coolFName); if(!coolFName) =
+return; if(document.layers && ev.target.name!=3DcoolFName.frame) return; =
+else coolFName.nsload=3D0; coolFName.loaded=3D0; if(!document.layers) =
+setTimeout("cm_checkLoaded()",200)}=0A=
+=0A=
+var coolFName=3D""; var onload; var coolFMouseup=3D"";=0A=
+function makeCoolMenu(name){=0A=
+	coolFName=3Dname; this.name=3Dname; this.lastScrolled=3D0;=0A=
+	this.win=3Dwindow; toppage=3Dnew =
+makePageCoords(window,parent.frames.length);=0A=
+	this.aobj=3Dnew Array(); this.m=3Dnew Array(); this.l=3Dnew Array()=0A=
+	this.level=3Dnew Array(); this.resized=3Dcm_resized;=0A=
+	this.makeMenu=3Dcm_makeMenu; this.showSubs=3Dcm_showSubs; =
+this.makeTop=3Dcm_makeTop;=0A=
+	this.getCoords=3Dcm_getCoords; this.checkPage=3Dcm_checkPage;=0A=
+	this.mmout=3Dcm_mout; this.mover=3Dcm_mover; this.checkp=3Dcm_checkp;=0A=
+	this.hideSubs=3Dcm_hideSubs; this.construct=3Dcm_construct;=0A=
+	this.makeStyle=3Dcm_makeStyle; this.refresh=3Dcm_refresh;=0A=
+	this.go=3Dcm_go; this.frstr=3D""; this.mobj=3Dnew Array()=0A=
+	this.totwidth=3D0; this.totheight=3D0; this.maxwidth=3D0; =
+this.maxheight=3D0=0A=
+	this.tim=3D10; this.loaded=3D0; this.isover=3Dfalse; =
+this.checkFrame=3Dcm_checkFrame;=0A=
+	this.checkFolder=3Dcm_checkFolder; this.hcode=3D""; this.oNS=3Dnew =
+Array(); this.oNS2=3Dnew Array()=0A=
+	bw.filter=3D(bw.ie6||bw.ver.indexOf("MSIE 5.5")>-1) && !bw.mac=0A=
+}=0A=
+=0A=
+function findFrame(frameName){=0A=
+	obj=3Dtop; var frameObj=3D0;=0A=
+	for(i=3D0;i<obj.frames.length;i++){=0A=
+		if(obj.frames[i].name=3D=3DframeName){frameObj=3Dobj.frames[i]; =
+break;}; ln=3Dobj.frames[i].frames.length=0A=
+		for(j=3D0;j<ln;j++){=0A=
+			=
+if(obj.frames[i].frames[j].name=3D=3DframeName){frameObj=3Dobj.frames[i].=
+frames[j];  break}; ln2=3Dobj.frames[i].frames[j].frames.length=0A=
+			for(a=3D0;a<ln2;a++){=0A=
+				=
+if(obj.frames[i].frames[j].frames[a].name=3D=3DframeName){frameObj=3Dobj.=
+frames[i].frames[j].frames[a]; break}=0A=
+			}=0A=
+		}=0A=
+	}return frameObj=0A=
+}=0A=
+=0A=
+function cm_checkFrame(num){=0A=
+	var fr; if(num=3D=3D10){debug('Frame: '+this.frame+' doesn\'t exist - =
+Value: '+fr + " - Could not build menus."); return}=0A=
+	if(!top.frames[this.frame]) fr=3DfindFrame(this.frame); else =
+fr=3Dtop.frames[this.frame]=0A=
+	if(!fr){num++; setTimeout(this.name+".checkFrame("+num+")",500)=0A=
+	}else{ this.win=3Dfr=0A=
+		if(bw.ns4){=0A=
+			top.frames.captureEvents(Event.UNLOAD); =
+top.frames.captureEvents(Event.LOAD); top.frames.onunload=3Dcm_unloaded;=0A=
+			top.frames.onload =3D cm_checkLoaded;	=
+setTimeout("cm_checkLoaded(0,1)",1000)=0A=
+		}else if((bw.ie||bw.ns6)) setTimeout("cm_checkLoaded()",200)=0A=
+	}=0A=
+}
+------=_NextPart_000_0000_01C36355.B83B7460
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.winguides.com/js/toolbar.js
+
+function lib_bwcheck(){ //Browsercheck (needed)=0A=
+	this.ver=3Dnavigator.appVersion; this.agent=3Dnavigator.userAgent=0A=
+	this.dom=3Ddocument.getElementById?1:0=0A=
+	this.ie5=3D(this.ver.indexOf("MSIE 5")>-1 && this.dom)?1:0;=0A=
+	this.ie6=3D(this.ver.indexOf("MSIE 6")>-1 && this.dom)?1:0;=0A=
+	this.ie4=3D(document.all && !this.dom)?1:0;=0A=
+	this.ie=3Dthis.ie4||this.ie5||this.ie6=0A=
+	this.mac=3Dthis.agent.indexOf("Mac")>-1=0A=
+	this.opera5=3Dthis.agent.indexOf("Opera 5")>-1=0A=
+	this.ns6=3D(this.dom && parseInt(this.ver) >=3D 5) ?1:0; =0A=
+	this.ns4=3D(document.layers && !this.dom)?1:0;=0A=
+	this.bw=3D(this.ie6 || this.ie5 || this.ie4 || this.ns4 || this.ns6 || =
+this.opera5 || this.dom)=0A=
+	return this=0A=
+}=0A=
+=0A=
+var bw=3Dnew lib_bwcheck() //Making browsercheck object=0A=
+=0A=
+var mDebugging=3D0 =0A=
+=0A=
+oCMenu=3Dnew makeCoolMenu("oCMenu") =0A=
+oCMenu.useframes=3D0 =0A=
+oCMenu.frame=3D""=0A=
+oCMenu.useclick=3D1=0A=
+oCMenu.useNS4links=3D1=0A=
+oCMenu.NS4padding=3D2=0A=
+oCMenu.checkselect=3D0=0A=
+oCMenu.offlineUrl=3D"" =0A=
+oCMenu.onlineUrl=3D"http://www.winguides.com/js/"=0A=
+=0A=
+oCMenu.pagecheck=3D1=0A=
+oCMenu.checkscroll=3D0=0A=
+oCMenu.resizecheck=3D1 =0A=
+oCMenu.wait=3D600 =0A=
+=0A=
+oCMenu.usebar=3D1 =0A=
+oCMenu.barcolor=3D"#003355" =0A=
+oCMenu.barwidth=3D"98%" =0A=
+oCMenu.barheight=3D"menu" =0A=
+oCMenu.barx=3D"menu"=0A=
+oCMenu.bary=3D"menu"=0A=
+oCMenu.barinheritborder=3D0 =0A=
+=0A=
+oCMenu.rows=3D1=0A=
+oCMenu.fromleft=3D0 =0A=
+oCMenu.fromtop=3D0 =0A=
+oCMenu.pxbetween=3D0=0A=
+=0A=
+oCMenu.menuplacement=3D"bottomleft"=0A=
+=0A=
+oCMenu.level[0]=3Dnew Array() =0A=
+oCMenu.level[0].width=3D90 =0A=
+oCMenu.level[0].height=3D17 =0A=
+oCMenu.level[0].bgcoloroff=3D"transparent"=0A=
+oCMenu.level[0].bgcoloron=3D"#004477" =0A=
+oCMenu.level[0].textcolor=3D"#ffffff"=0A=
+oCMenu.level[0].hovercolor=3D"#fcce55" =0A=
+oCMenu.level[0].style=3D"font-family:arial,helvetica; font-size:11px; =
+font-weight:bold"=0A=
+oCMenu.level[0].border=3D0 =0A=
+oCMenu.level[0].bordercolor=3D"" =0A=
+oCMenu.level[0].offsetX=3D0 =0A=
+oCMenu.level[0].offsetY=3D2 =0A=
+oCMenu.level[0].NS4font=3D"arial,helvetica"=0A=
+oCMenu.level[0].NS4fontSize=3D"1"=0A=
+oCMenu.level[0].NS4fontColor=3D"white"=0A=
+oCMenu.level[0].align=3D"bottom" =0A=
+=0A=
+oCMenu.level[1]=3Dnew Array() =0A=
+oCMenu.level[1].width=3D130=0A=
+oCMenu.level[1].bgcoloroff=3D"#004477"=0A=
+oCMenu.level[1].bgcoloron=3D"#0077aa"=0A=
+oCMenu.level[1].style=3D"padding:2px; font-family:arial,helvetica; =
+font-size:11px; font-weight:bold"=0A=
+oCMenu.level[1].offsetX=3D1=0A=
+oCMenu.level[1].offsetY=3D2=0A=
+oCMenu.level[1].bordercolor=3D"#000000"=0A=
+oCMenu.level[1].align=3D"bottom"=0A=
+=0A=
+oCMenu.level[2]=3Dnew Array()=0A=
+oCMenu.level[2].width=3D130=0A=
+oCMenu.level[2].bgcoloroff=3D"#005689"=0A=
+oCMenu.level[2].bgcoloron=3D"#0077aa"=0A=
+oCMenu.level[2].style=3D"padding:2px; font-family:arial,helvetica; =
+font-size:11px; font-weight:bold"=0A=
+oCMenu.level[2].offsetX=3D1=0A=
+oCMenu.level[2].offsetY=3D2=0A=
+oCMenu.level[2].bordercolor=3D"#000000"=0A=
+oCMenu.level[2].align=3D"bottom"=0A=
+=0A=
+oCMenu.makeMenu('top0','','&nbsp;WinGuides','','')=0A=
+	oCMenu.makeMenu('sub00','top0','Home Page','http://www.winguides.com/')=0A=
+	oCMenu.makeMenu('sub01','top0','Registry =
+Guide','http://www.winguides.com/registry/')=0A=
+	oCMenu.makeMenu('sub02','top0','Security =
+Guide','http://www.winguides.com/security/')=0A=
+	oCMenu.makeMenu('sub03','top0','Scripting =
+Guide','http://www.winguides.com/scripting/')=0A=
+	oCMenu.makeMenu('sub04','top0','Driver =
+Guide','http://www.winguides.com/drivers/')=0A=
+	oCMenu.makeMenu('sub05','top0','Software =
+Guide','http://www.winguides.com/software/')=0A=
+	oCMenu.makeMenu('sub07','top0','<hr color=3D"#FFFFFF" size=3D"1">','')=0A=
+	oCMenu.makeMenu('sub08','top0','Support =
+Forums','http://www.winguides.com/forums/')=0A=
+	oCMenu.makeMenu('sub09','top0','Site =
+Search','http://www.winguides.com/search.php')=0A=
+	=
+oCMenu.makeMenu('sub010','top0','Newsletters','http://www.winguides.com/n=
+ewsletter.php')=0A=
+	oCMenu.makeMenu('sub012','top0','<hr color=3D"#FFFFFF" size=3D"1">','')=0A=
+        oCMenu.makeMenu('sub013','top0','Remove =
+Toolbar','http://www.winguides.com/forums/settoolbar.php?status=3Doff')=0A=
+=0A=
+oCMenu.makeMenu('top1','','Registry','')=0A=
+	=
+oCMenu.makeMenu('sub10','top1','Categories&nbsp;&nbsp;&gt;&gt;','http://w=
+ww.winguides.com/registry/')=0A=
+		=
+oCMenu.makeMenu('sub100','sub10','Hardware','http://www.winguides.com/reg=
+istry/category.php/5/')=0A=
+		=
+oCMenu.makeMenu('sub101','sub10','Network','http://www.winguides.com/regi=
+stry/category.php/3/')=0A=
+		=
+oCMenu.makeMenu('sub102','sub10','Security','http://www.winguides.com/reg=
+istry/category.php/4/')=0A=
+		=
+oCMenu.makeMenu('sub103','sub10','Software','http://www.winguides.com/reg=
+istry/category.php/6/')=0A=
+		oCMenu.makeMenu('sub104','sub10','Tips and =
+Tricks','http://www.winguides.com/registry/category.php/2/')=0A=
+		=
+oCMenu.makeMenu('sub105','sub10','Windows','http://www.winguides.com/regi=
+stry/category.php/1/')=0A=
+	=
+oCMenu.makeMenu('sub11','top1','Guides&nbsp;for&nbsp;Windows&nbsp;&gt;&gt=
+;','http://www.winguides.com/registry/')=0A=
+		oCMenu.makeMenu('sub110','sub11','Windows =
+XP','http://www.winguides.com/windowsxp/')=0A=
+		oCMenu.makeMenu('sub111','sub11','Windows =
+Me','http://www.winguides.com/windowsme/')=0A=
+		oCMenu.makeMenu('sub112','sub11','Windows =
+2000','http://www.winguides.com/windows2000/')=0A=
+		oCMenu.makeMenu('sub113','sub11','Windows =
+98','http://www.winguides.com/windows98/')=0A=
+		oCMenu.makeMenu('sub114','sub11','Windows =
+95','http://www.winguides.com/windows95/')=0A=
+		oCMenu.makeMenu('sub115','sub11','Windows =
+NT','http://www.winguides.com/windowsnt/')=0A=
+		oCMenu.makeMenu('sub116','sub11','Windows =
+CE','http://www.winguides.com/windowsce/')=0A=
+	oCMenu.makeMenu('sub12','top1','Registry =
+Guide','http://www.winguides.com/guides.php?guide=3Dregistry')=0A=
+	=
+oCMenu.makeMenu('sub13','top1','Downloads','http://www.winguides.com/down=
+loads.php?guide=3Dregistry')=0A=
+	=
+oCMenu.makeMenu('sub14','top1','Tutorial','http://www.winguides.com/artic=
+le.php?id=3D1&guide=3Dregistry')=0A=
+	=
+oCMenu.makeMenu('sub15','top1','Books','http://www.winguides.com/books.ph=
+p?guide=3Dregistry')=0A=
+	=
+oCMenu.makeMenu('sub16','top1','Newsletter','http://www.winguides.com/new=
+sletter.php?guide=3Dregistry')=0A=
+	oCMenu.makeMenu('sub17','top1','Tweak =
+Manager','http://www.winguides.com/tweak/')=0A=
+=0A=
+oCMenu.makeMenu('top2','','Security','')=0A=
+	=
+oCMenu.makeMenu('sub20','top2','Vulnerabilities&nbsp;&nbsp;&gt;&gt;','htt=
+p://www.winguides.com/security/')=0A=
+		oCMenu.makeMenu('sub200','sub20','Back =
+Office','http://www.winguides.com/security/category.php/6/')=0A=
+		oCMenu.makeMenu('sub201','sub20','Internet =
+Explorer','http://www.winguides.com/security/category.php/5/')=0A=
+		oCMenu.makeMenu('sub202','sub20','Internet =
+Services','http://www.winguides.com/security/category.php/4/')=0A=
+		=
+oCMenu.makeMenu('sub203','sub20','Software','http://www.winguides.com/sec=
+urity/category.php/3/')=0A=
+		oCMenu.makeMenu('sub204','sub20','Windows 95, 98 &amp; =
+ME','http://www.winguides.com/security/category.php/1/')=0A=
+		oCMenu.makeMenu('sub205','sub20','Windows NT, 2000 &amp; =
+XP','http://www.winguides.com/security/category.php/2/')=0A=
+	oCMenu.makeMenu('sub21','top2','Security =
+Guide','http://www.winguides.com/guides.php?guide=3Dsecurity')=0A=
+	=
+oCMenu.makeMenu('sub22','top2','Downloads','http://www.winguides.com/down=
+loads.php?guide=3Dsecurity')=0A=
+	oCMenu.makeMenu('sub23','top2','Password =
+Tool','http://www.winguides.com/security/password.php')=0A=
+	=
+oCMenu.makeMenu('sub24','top2','Books','http://www.winguides.com/books.ph=
+p?guide=3Dsecurity')=0A=
+	=
+oCMenu.makeMenu('sub25','top2','Newsletter','http://www.winguides.com/new=
+sletter.php?guide=3Dsecurity')=0A=
+=0A=
+oCMenu.makeMenu('top3','','Discussions','')=0A=
+	oCMenu.makeMenu('sub30','top3','Support =
+Forums','http://www.winguides.com/forums/')=0A=
+	oCMenu.makeMenu('sub31','top3','Registry =
+Questions','http://www.winguides.com/forums/postlist.php?Cat=3D&Board=3Db=
+rdQuestions')=0A=
+	oCMenu.makeMenu('sub32','top3','Security 95, 98 &amp; =
+Me','http://www.winguides.com/forums/postlist.php?Cat=3D&Board=3Dsecwin')=0A=
+	oCMenu.makeMenu('sub33','top3','Security NT, 2000 &amp; =
+XP','http://www.winguides.com/forums/postlist.php?Cat=3D&Board=3Dsecwinnt=
+')=0A=
+	=
+oCMenu.makeMenu('sub34','top3','Scripting','http://www.winguides.com/foru=
+ms/postlist.php?Cat=3D&Board=3DbrdScripting')=0A=
+	oCMenu.makeMenu('sub35','top3','Windows 95, 98 &amp; =
+Me','http://www.winguides.com/forums/postlist.php?Cat=3D&Board=3Dgenwin')=0A=
+	oCMenu.makeMenu('sub36','top3','Windows NT &amp; =
+2000','http://www.winguides.com/forums/postlist.php?Cat=3D&Board=3Dgenwin=
+nt')=0A=
+	oCMenu.makeMenu('sub37','top3','Windows =
+XP','http://www.winguides.com/forums/postlist.php?Cat=3D&Board=3Dgenwinxp=
+')=0A=
+	oCMenu.makeMenu('sub38','top3','Hardware &amp; =
+Drivers','http://www.winguides.com/forums/postlist.php?Cat=3D&Board=3Dgen=
+hardware')=0A=
+=0A=
+oCMenu.makeMenu('top4','','Information','')=0A=
+	=
+oCMenu.makeMenu('sub40','top4','Subscribe','http://www.winguides.com/subs=
+cribe/?toolbar')=0A=
+	=
+oCMenu.makeMenu('sub41','top4','Advertise','http://www.winguides.com/medi=
+akit.php')=0A=
+	oCMenu.makeMenu('sub42','top4','Contact =
+Us','http://www.winguides.com/contact.php')=0A=
+	oCMenu.makeMenu('sub43','top4','Link to =
+Us','http://www.winguides.com/linktous.php?guide=3Dsite')=0A=
+	oCMenu.makeMenu('sub45','top4','<hr color=3D"#FFFFFF" size=3D"1">','')=0A=
+	=
+oCMenu.makeMenu('sub46','top4','Copyright','http://www.winguides.com/copy=
+right.php')=0A=
+        oCMenu.makeMenu('sub47','top4','Privacy =
+Policy','http://www.winguides.com/privacy.php')=0A=
+=0A=
+function cm_checkScrolled(obj){=0A=
+	if(bw.ns4 || bw.ns6) obj.scrolledY=3Dobj.win.pageYOffset=0A=
+	else obj.scrolledY=3Dobj.win.document.body.scrollTop=0A=
+	if(obj.scrolledY!=3Dobj.lastScrolled){=0A=
+		if(!obj.useframes){=0A=
+			self.status=3Dobj.scrolledY=0A=
+			if(obj.scrolledY>119){=0A=
+				for(i=3D0;i<obj.l[0].num;i++){var sobj=3Dobj.l[0].o[i].oBorder; =
+sobj.moveY(obj.scrolledY)}=0A=
+				if(obj.usebar) obj.oBar.moveY(obj.scrolledY)=0A=
+			}else{=0A=
+				for(i=3D0;i<obj.l[0].num;i++){var sobj=3Dobj.l[0].o[i].oBorder; =
+sobj.moveY(obj.fromtop)}=0A=
+				if(obj.usebar) obj.oBar.moveY(obj.fromtop)=0A=
+			}=0A=
+=0A=
+		}=0A=
+		obj.lastScrolled=3Dobj.scrolledY; page.y=3Dobj.scrolledY; =
+page.y2=3Dpage.y2orig+obj.scrolledY=0A=
+		if(!obj.useframes || bw.ie){ clearTimeout(obj.tim); obj.isover=3D0; =
+obj.hideSubs(1,0)}=0A=
+	}=0A=
+	if((bw.ns4 || bw.ns6) && !obj.useframes) =
+setTimeout("cm_checkScrolled("+obj.name+")",200)=0A=
+}
+------=_NextPart_000_0000_01C36355.B83B7460--
